@@ -7,7 +7,7 @@ module IM(pc,data);
     wire [9:0] pc1;
     
     initial begin
-        $readmemh("C:/Users/Administrator/Desktop/all",memory);
+        $readmemh("/home/hover/Desktop/Labs/HUST_ComputerOrgernization_CourseDesign/tools/benchmark_ccmb_vivado.hex",memory);
     end
     
     assign pc1[9:0]=pc[11:2];
