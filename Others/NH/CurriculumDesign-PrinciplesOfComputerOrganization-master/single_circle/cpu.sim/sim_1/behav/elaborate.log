@@ -1,0 +1,67 @@
+Vivado Simulator 2015.2
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/2015.2/bin/unwrapped/win64.o/xelab.exe -wto 0d57339caf7e4f4c929dc3ec41b4e9a3 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot simu_top_behav xil_defaultlib.simu_top xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 4 for port parameterN [C:/Users/16044/Desktop/CurriculumDesign-PrinciplesOfComputerOrganization-master/single_circle/cpu.srcs/sources_1/new/TopLayer.v:67]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 4 for port parameterN [C:/Users/16044/Desktop/CurriculumDesign-PrinciplesOfComputerOrganization-master/single_circle/cpu.srcs/sources_1/new/SwitchFrequency.v:10]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 4 for port parameterN [C:/Users/16044/Desktop/CurriculumDesign-PrinciplesOfComputerOrganization-master/single_circle/cpu.srcs/sources_1/new/SwitchFrequency.v:14]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Users/16044/Desktop/CurriculumDesign-PrinciplesOfComputerOrganization-master/single_circle/cpu.srcs/sources_1/new/TopLayer.v" Line 1. Module TopLayer doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/16044/Desktop/CurriculumDesign-PrinciplesOfComputerOrganization-master/single_circle/cpu.srcs/sources_1/new/halt.v" Line 1. Module halt doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/16044/Desktop/CurriculumDesign-PrinciplesOfComputerOrganization-master/single_circle/cpu.srcs/sources_1/new/decodShowInDisplay.v" Line 1. Module display2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/16044/Desktop/CurriculumDesign-PrinciplesOfComputerOrganization-master/single_circle/cpu.srcs/sources_1/new/SwitchFrequency.v" Line 1. Module SwitchFreq doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/16044/Desktop/CurriculumDesign-PrinciplesOfComputerOrganization-master/single_circle/cpu.srcs/sources_1/new/SwitchFrequency.v" Line 28. Module divider_(N=2) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/16044/Desktop/CurriculumDesign-PrinciplesOfComputerOrganization-master/single_circle/cpu.srcs/sources_1/new/SwitchFrequency.v" Line 28. Module divider_(N=1000000) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/16044/Desktop/CurriculumDesign-PrinciplesOfComputerOrganization-master/single_circle/cpu.srcs/sources_1/new/controller.v" Line 1. Module controller doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/16044/Desktop/CurriculumDesign-PrinciplesOfComputerOrganization-master/single_circle/cpu.srcs/sources_1/new/regfile.v" Line 1. Module regfile doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/16044/Desktop/CurriculumDesign-PrinciplesOfComputerOrganization-master/single_circle/cpu.srcs/sources_1/new/ALU.v" Line 1. Module ALU doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/16044/Desktop/CurriculumDesign-PrinciplesOfComputerOrganization-master/single_circle/cpu.srcs/sources_1/new/display.v" Line 1. Module display doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/16044/Desktop/CurriculumDesign-PrinciplesOfComputerOrganization-master/single_circle/cpu.srcs/sources_1/new/RegFileRead.v" Line 1. Module RegFileRead doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/16044/Desktop/CurriculumDesign-PrinciplesOfComputerOrganization-master/single_circle/cpu.srcs/sources_1/new/RegFileWrite.v" Line 1. Module RegFileWrite doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/16044/Desktop/CurriculumDesign-PrinciplesOfComputerOrganization-master/single_circle/cpu.srcs/sources_1/new/RegFiletoALU.v" Line 1. Module RegFiletoALU doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/16044/Desktop/CurriculumDesign-PrinciplesOfComputerOrganization-master/single_circle/cpu.srcs/sources_1/new/extend.v" Line 1. Module extend doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/16044/Desktop/CurriculumDesign-PrinciplesOfComputerOrganization-master/single_circle/cpu.srcs/sources_1/new/DM.v" Line 1. Module DM doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/16044/Desktop/CurriculumDesign-PrinciplesOfComputerOrganization-master/single_circle/cpu.srcs/sources_1/new/TopLayer.v" Line 1. Module TopLayer doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/16044/Desktop/CurriculumDesign-PrinciplesOfComputerOrganization-master/single_circle/cpu.srcs/sources_1/new/halt.v" Line 1. Module halt doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/16044/Desktop/CurriculumDesign-PrinciplesOfComputerOrganization-master/single_circle/cpu.srcs/sources_1/new/decodShowInDisplay.v" Line 1. Module display2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/16044/Desktop/CurriculumDesign-PrinciplesOfComputerOrganization-master/single_circle/cpu.srcs/sources_1/new/SwitchFrequency.v" Line 1. Module SwitchFreq doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/16044/Desktop/CurriculumDesign-PrinciplesOfComputerOrganization-master/single_circle/cpu.srcs/sources_1/new/SwitchFrequency.v" Line 28. Module divider_(N=2) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/16044/Desktop/CurriculumDesign-PrinciplesOfComputerOrganization-master/single_circle/cpu.srcs/sources_1/new/SwitchFrequency.v" Line 28. Module divider_(N=1000000) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/16044/Desktop/CurriculumDesign-PrinciplesOfComputerOrganization-master/single_circle/cpu.srcs/sources_1/new/controller.v" Line 1. Module controller doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/16044/Desktop/CurriculumDesign-PrinciplesOfComputerOrganization-master/single_circle/cpu.srcs/sources_1/new/regfile.v" Line 1. Module regfile doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/16044/Desktop/CurriculumDesign-PrinciplesOfComputerOrganization-master/single_circle/cpu.srcs/sources_1/new/ALU.v" Line 1. Module ALU doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/16044/Desktop/CurriculumDesign-PrinciplesOfComputerOrganization-master/single_circle/cpu.srcs/sources_1/new/display.v" Line 1. Module display doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/16044/Desktop/CurriculumDesign-PrinciplesOfComputerOrganization-master/single_circle/cpu.srcs/sources_1/new/RegFileRead.v" Line 1. Module RegFileRead doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/16044/Desktop/CurriculumDesign-PrinciplesOfComputerOrganization-master/single_circle/cpu.srcs/sources_1/new/RegFileWrite.v" Line 1. Module RegFileWrite doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/16044/Desktop/CurriculumDesign-PrinciplesOfComputerOrganization-master/single_circle/cpu.srcs/sources_1/new/RegFiletoALU.v" Line 1. Module RegFiletoALU doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/16044/Desktop/CurriculumDesign-PrinciplesOfComputerOrganization-master/single_circle/cpu.srcs/sources_1/new/extend.v" Line 1. Module extend doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/16044/Desktop/CurriculumDesign-PrinciplesOfComputerOrganization-master/single_circle/cpu.srcs/sources_1/new/DM.v" Line 1. Module DM doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.halt
+Compiling module xil_defaultlib.display2
+Compiling module xil_defaultlib.divider
+Compiling module xil_defaultlib.divider_(N=2)
+Compiling module xil_defaultlib.divider_(N=1000000)
+Compiling module xil_defaultlib.SwitchFreq
+Compiling module xil_defaultlib.controller
+Compiling module xil_defaultlib.regfile
+Compiling module xil_defaultlib.instruDecoder
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.npc
+Compiling module xil_defaultlib.pc
+Compiling module xil_defaultlib.counter
+Compiling module xil_defaultlib.display
+Compiling module xil_defaultlib.RegFileRead
+Compiling module xil_defaultlib.RegFileWrite
+Compiling module xil_defaultlib.RegFiletoALU
+Compiling module xil_defaultlib.extend
+Compiling module xil_defaultlib.IM
+Compiling module xil_defaultlib.DM
+Compiling module xil_defaultlib.TopLayer
+Compiling module xil_defaultlib.simu_top
+Compiling module xil_defaultlib.glbl
+Waiting for 2 sub-compilation(s) to finish...
+Built simulation snapshot simu_top_behav

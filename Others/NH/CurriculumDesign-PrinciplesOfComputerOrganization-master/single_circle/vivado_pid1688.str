@@ -1,0 +1,2243 @@
+/*
+
+Vivado v2015.2 (64-bit)
+SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+Process ID: 1688
+
+Current time: 	2/20/19 12:31:19 PM GMT+08:00
+Time zone: 	GMT+08:00 (GMT+08:00)
+
+OS: Windows 8
+Version: 6.2
+Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1536x864
+Screen resolution (DPI): 96
+Available screens: 1
+Default font: family=SimSun,name=ËÎÌו,style=plain,size=12
+
+Java version: 	1.8.0_25 64-bit
+Java home: 	D:/Vivado/2015.2/tps/win64/jre
+
+User name: 	16044
+User directory: C:/Users/16044/Desktop/aa/CurriculumDesign-PrinciplesOfComputerOrganization-master/single_circle
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+Vivado preferences path: C:/Users/16044/AppData/Roaming/Xilinx/Vivado/2015.2/vivado.ini
+Vivado layouts directory: C:/Users/16044/AppData/Roaming/Xilinx/Vivado/2015.2/layouts/application
+
+GUI allocated memory:	168 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 394 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// Opening Vivado Project: C:\Users\16044\Desktop\aa\CurriculumDesign-PrinciplesOfComputerOrganization-master\single_circle\cpu.xpr. Version: Vivado v2015.2 
+// cp:P (cl:JFrame):  Open Project : addNotify
+// [GUI Memory]: 50 MB (+50336kb) [00:00:10]
+// [Engine Memory]: 376 MB (+243292kb) [00:00:10]
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Users/16044/Desktop/aa/CurriculumDesign-PrinciplesOfComputerOrganization-master/single_circle/cpu.xpr 
+// Tcl Message: INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'C:/Users/16044/Desktop/aa/CurriculumDesign-PrinciplesOfComputerOrganization-master/single_circle' 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project C:/Users/16044/Desktop/aa/CurriculumDesign-PrinciplesOfComputerOrganization-master/single_circle/cpu.xpr 
+// Tcl Message: INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'C:/Users/16044/Desktop/aa/CurriculumDesign-PrinciplesOfComputerOrganization-master/single_circle' 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 425 MB (+31304kb) [00:00:15]
+// [Engine Memory]: 458 MB (+12207kb) [00:00:16]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 481 MB. GUI used memory: 34 MB. Current time: 2/20/19 12:31:25 PM GMT+08:00
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/2015.2/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [Engine Memory]: 482 MB (+1473kb) [00:00:19]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Project name: cpu; location: C:/Users/16044/Desktop/aa/CurriculumDesign-PrinciplesOfComputerOrganization-master/single_circle; part: xc7a100tcsg324-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:10 . Memory (MB): peak = 715.613 ; gain = 145.215 
+dismissDialog("Open Project"); // cp:P (cl:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// a:a (cl:JFrame): Critical Messages: addNotify
+collapseTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 26); // w:Y (v:H, cl:JFrame)
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // i:a (JPanel:JComponent, a:a)
+dismissDialog("Critical Messages"); // a:a (cl:JFrame)
+// [GUI Memory]: 58 MB (+5587kb) [00:00:27]
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Open Target]", 27, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HW_TARGET
+selectMenuItem((HResource) null, "localhost:3121,xilinx_tcf/Digilent/210292746826A,PARAM.FREQUENCY:15000000"); // ab:JMenuItem (ai:JPopupMenu, Popup:JWindow)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// cp:P (cl:JFrame):  Open Hardware Target : addNotify
+// TclEventType: LOAD_FEATURE
+// TclEventType: HW_SESSION_OPEN
+// [GUI Memory]: 65 MB (+4038kb) [00:00:31]
+// Tcl Message: open_hw 
+// Tcl Message: connect_hw_server -url localhost:3121 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// Tcl Message: INFO: [Labtools 27-2222] Launching hw_server... 
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:  ****** Xilinx hw_server v2015.2   **** Build date : Jun 26 2015-16:56:39     ** Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.   
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: current_hw_target [get_hw_targets */xilinx_tcf/Digilent/210292746826A] 
+// TclEventType: HW_TARGET_CHANGE
+// Tcl Message: set_property PARAM.FREQUENCY 15000000 [get_hw_targets */xilinx_tcf/Digilent/210292746826A] 
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_DEVICE_CHANGE
+// [Engine Memory]: 539 MB (+34194kb) [00:00:35]
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292746826A 
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/16044/Desktop/aa/CurriculumDesign-PrinciplesOfComputerOrganization-master/single_circle/cpu.runs/impl_1/TopLayer.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: current_hw_device [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Open Hardware Target"); // cp:P (cl:JFrame)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // i:l (JPanel:JComponent, cl:JFrame)
+selectMenuItem((HResource) null, "xc7a100t_0"); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aC:ag (cl:JFrame): Program Device: addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 558 MB. GUI used memory: 38 MB. Current time: 2/20/19 12:31:46 PM GMT+08:00
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aC:ag)
+// cp:P (cl:JFrame):  Program Device : addNotify
+dismissDialog("Program Device"); // aC:ag (cl:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/16044/Desktop/aa/CurriculumDesign-PrinciplesOfComputerOrganization-master/single_circle/cpu.runs/impl_1/TopLayer.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'x' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // cp:P (cl:JFrame)
+// Elapsed time: 100 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // w:Y (v:H, cl:JFrame) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_PROJECT_MANAGER
+// [GUI Memory]: 68 MB (+9kb) [00:03:35]
+// [GUI Memory]: 72 MB (+223kb) [00:04:10]
+// Elapsed time: 149 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v)]", 1); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _swifreq - SwitchFreq (SwitchFrequency.v)]", 5, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _swifreq - SwitchFreq (SwitchFrequency.v)]", 5, true, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click - Node
+selectCodeEditor("SwitchFrequency.v", 13, 142); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "SwitchFrequency.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+// [GUI Memory]: 78 MB (+2594kb) [00:05:01]
+// [Engine Memory]: 568 MB (+2358kb) [00:05:25]
+// Elapsed time: 24 seconds
+selectCodeEditor("SwitchFrequency.v", 101, 149); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SwitchFrequency.v", 112, 133); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SwitchFrequency.v", 153, 141); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SwitchFrequency.v", 153, 141, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("SwitchFrequency.v", 153, 141); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SwitchFrequency.v", 132, 175); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SwitchFrequency.v", 132, 175, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("SwitchFrequency.v", 132, 175); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SwitchFrequency.v", 106, 216); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SwitchFrequency.v", 106, 216, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("SwitchFrequency.v", 156, 214); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SwitchFrequency.v", 156, 214, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("SwitchFrequency.v", 135, 252); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SwitchFrequency.v", 135, 252, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("SwitchFrequency.v", 69, 257); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SwitchFrequency.v", 69, 257, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("SwitchFrequency.v", 79, 274); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SwitchFrequency.v", 84, 135); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SwitchFrequency.v", 84, 135, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _swifreq - SwitchFreq (SwitchFrequency.v), divider1 - divider_ (SwitchFrequency.v)]", 6, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _swifreq - SwitchFreq (SwitchFrequency.v), divider1 - divider_ (SwitchFrequency.v)]", 6, false, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click
+// HMemoryUtils.trashcanNow. Engine heap size: 581 MB. GUI used memory: 39 MB. Current time: 2/20/19 12:36:46 PM GMT+08:00
+selectCodeEditor("SwitchFrequency.v", 92, 270); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SwitchFrequency.v", 393, 268); // bj:J (JPanel:JComponent, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _swifreq - SwitchFreq (SwitchFrequency.v), divider2 - divider_ (SwitchFrequency.v)]", 7, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _swifreq - SwitchFreq (SwitchFrequency.v), divider2 - divider_ (SwitchFrequency.v)]", 7, false, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click
+// Elapsed time: 14 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _swifreq - SwitchFreq (SwitchFrequency.v), divider1 - divider_ (SwitchFrequency.v)]", 6, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _swifreq - SwitchFreq (SwitchFrequency.v), divider1 - divider_ (SwitchFrequency.v)]", 6, false, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click
+// [GUI Memory]: 82 MB (+152kb) [00:06:02]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _swifreq - SwitchFreq (SwitchFrequency.v), divider2 - divider_ (SwitchFrequency.v)]", 7, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _swifreq - SwitchFreq (SwitchFrequency.v), divider2 - divider_ (SwitchFrequency.v)]", 7, false, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click
+// [Engine Memory]: 601 MB (+4749kb) [00:06:06]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _swifreq - SwitchFreq (SwitchFrequency.v)]", 5, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _swifreq - SwitchFreq (SwitchFrequency.v)]", 5, true, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click - Node
+// HMemoryUtils.trashcanNow. Engine heap size: 601 MB. GUI used memory: 40 MB. Current time: 2/20/19 12:37:16 PM GMT+08:00
+// Elapsed time: 77 seconds
+selectCodeEditor("SwitchFrequency.v", 127, 204); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SwitchFrequency.v", 127, 197); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SwitchFrequency.v", 127, 197, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+// Elapsed time: 34 seconds
+selectCodeEditor("SwitchFrequency.v", 122, 308); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 10 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 17, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// ap:bI (cl:JFrame): Run Synthesis: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ap:bI)
+// cp:P (cl:JFrame):  Resetting Runs : addNotify
+dismissDialog("Run Synthesis"); // ap:bI (cl:JFrame)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// cp:P (cl:JFrame):  Starting Design Runs : addNotify
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: launch_runs synth_1 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Wed Feb 20 12:39:20 2019] Launched synth_1... Run output will be captured here: C:/Users/16044/Desktop/aa/CurriculumDesign-PrinciplesOfComputerOrganization-master/single_circle/cpu.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // cp:P (cl:JFrame)
+// [GUI Memory]: 86 MB (+69kb) [00:09:32]
+// TclEventType: RUN_COMPLETED
+// Q:ap (cl:JFrame): Synthesis Completed: addNotify
+// Elapsed time: 105 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, Q:ap)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// cp:P (cl:JFrame):  Starting Design Runs : addNotify
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 
+// Tcl Message: [Wed Feb 20 12:41:06 2019] Launched impl_1... Run output will be captured here: C:/Users/16044/Desktop/aa/CurriculumDesign-PrinciplesOfComputerOrganization-master/single_circle/cpu.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // cp:P (cl:JFrame)
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// Q:ap (cl:JFrame): Implementation Completed: addNotify
+// Elapsed time: 167 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "Generate Bitstream"); // a:JRadioButton (JPanel:JComponent, Q:ap)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, Q:ap)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+dismissDialog("Implementation Completed"); // Q:ap (cl:JFrame)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// cp:P (cl:JFrame):  Generate Bitstream : addNotify
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// Tcl Message: [Wed Feb 20 12:43:55 2019] Launched impl_1... Run output will be captured here: C:/Users/16044/Desktop/aa/CurriculumDesign-PrinciplesOfComputerOrganization-master/single_circle/cpu.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // cp:P (cl:JFrame)
+// TclEventType: RUN_COMPLETED
+// Elapsed time: 73 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run impl_1 -prev_step  
+// TclEventType: RUN_MODIFY
+// cp:P (cl:JFrame):  Generate Bitstream : addNotify
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Wed Feb 20 12:45:10 2019] Launched impl_1... Run output will be captured here: C:/Users/16044/Desktop/aa/CurriculumDesign-PrinciplesOfComputerOrganization-master/single_circle/cpu.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // cp:P (cl:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Hardware Manager, Open Target]", 27, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HW_TARGET
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Hardware Manager, Program Device]", 28, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectMenuItem((HResource) null, "xc7a100t_0"); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aC:ag (cl:JFrame): Program Device: addNotify
+selectCheckBox(PAResourceOtoP.ProgramFpgaDialog_CHECK_END_OF_STARTUP, "Enable end of startup check", false); // h:JCheckBox (JPanel:JComponent, aC:ag): FALSE
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aC:ag)
+// HOptionPane Error: "The file 'C:/Users/16044/Desktop/aa/CurriculumDesign-PrinciplesOfComputerOrganization-<br>master/single_circle/cpu.runs/impl_1/TopLayer.bit' does not exist.<br>Please specify a valid file name. (Invalid File Name)"
+selectButton("RDIResource.HFileChooserPanel_FILE_DOES_NOT_EXIST_PLEASE_SPECIFY_OK", "OK"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, U:JDialog)
+// TclEventType: RUN_COMPLETED
+// Elapsed time: 81 seconds
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aC:ag)
+// cp:P (cl:JFrame):  Program Device : addNotify
+dismissDialog("Program Device"); // aC:ag (cl:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/16044/Desktop/aa/CurriculumDesign-PrinciplesOfComputerOrganization-master/single_circle/cpu.runs/impl_1/TopLayer.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: program_hw_devices -disable_eos_check [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'x' command handler elapsed time: 86 seconds
+dismissDialog("Program Device"); // cp:P (cl:JFrame)
+// Elapsed time: 20 seconds
+selectCodeEditor("SwitchFrequency.v", 124, 310); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SwitchFrequency.v", 126, 313); // bj:J (JPanel:JComponent, cl:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // w:Y (v:H, cl:JFrame) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_PROJECT_MANAGER
+selectCodeEditor("SwitchFrequency.v", 122, 137); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SwitchFrequency.v", 203, 97, false, true, false, false, false); // bj:J (JPanel:JComponent, cl:JFrame) - Control Key
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _swifreq - SwitchFreq (SwitchFrequency.v)]", 5); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _swifreq - SwitchFreq (SwitchFrequency.v), divider2 - divider_ (SwitchFrequency.v)]", 7, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _swifreq - SwitchFreq (SwitchFrequency.v), divider1 - divider_ (SwitchFrequency.v)]", 6, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _swifreq - SwitchFreq (SwitchFrequency.v), divider1 - divider_ (SwitchFrequency.v)]", 6, false, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _swifreq - SwitchFreq (SwitchFrequency.v)]", 5, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _swifreq - SwitchFreq (SwitchFrequency.v)]", 5, true, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click - Node
+selectCodeEditor("SwitchFrequency.v", 104, 219); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SwitchFrequency.v", 104, 219, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("SwitchFrequency.v", 82, 152); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SwitchFrequency.v", 82, 152, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+// [GUI Memory]: 91 MB (+292kb) [00:21:46]
+// Elapsed time: 321 seconds
+selectCodeEditor("SwitchFrequency.v", 117, 90); // bj:J (JPanel:JComponent, cl:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _swifreq - SwitchFreq (SwitchFrequency.v)]", 5); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _swifreq - SwitchFreq (SwitchFrequency.v), divider1 - divider_ (SwitchFrequency.v)]", 6, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _swifreq - SwitchFreq (SwitchFrequency.v), divider1 - divider_ (SwitchFrequency.v)]", 6, false, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _swifreq - SwitchFreq (SwitchFrequency.v), divider1 - divider_ (SwitchFrequency.v)]", 6, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _swifreq - SwitchFreq (SwitchFrequency.v), divider1 - divider_ (SwitchFrequency.v)]", 6, false, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _swifreq - SwitchFreq (SwitchFrequency.v), divider2 - divider_ (SwitchFrequency.v)]", 7, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _swifreq - SwitchFreq (SwitchFrequency.v), divider2 - divider_ (SwitchFrequency.v)]", 7, false, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _swifreq - SwitchFreq (SwitchFrequency.v)]", 5, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _swifreq - SwitchFreq (SwitchFrequency.v)]", 5, true, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click - Node
+// Elapsed time: 10 seconds
+selectCodeEditor("SwitchFrequency.v", 128, 196); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 10 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 17, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// ap:bI (cl:JFrame): Run Synthesis: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ap:bI)
+// cp:P (cl:JFrame):  Resetting Runs : addNotify
+dismissDialog("Run Synthesis"); // ap:bI (cl:JFrame)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// cp:P (cl:JFrame):  Starting Design Runs : addNotify
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: launch_runs synth_1 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Wed Feb 20 12:53:28 2019] Launched synth_1... Run output will be captured here: C:/Users/16044/Desktop/aa/CurriculumDesign-PrinciplesOfComputerOrganization-master/single_circle/cpu.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // cp:P (cl:JFrame)
+// TclEventType: RUN_COMPLETED
+// Q:ap (cl:JFrame): Synthesis Completed: addNotify
+// Elapsed time: 99 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, Q:ap)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// cp:P (cl:JFrame):  Starting Design Runs : addNotify
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 
+// Tcl Message: [Wed Feb 20 12:55:08 2019] Launched impl_1... Run output will be captured here: C:/Users/16044/Desktop/aa/CurriculumDesign-PrinciplesOfComputerOrganization-master/single_circle/cpu.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // cp:P (cl:JFrame)
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// Q:ap (cl:JFrame): Implementation Completed: addNotify
+// Elapsed time: 104 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "Generate Bitstream"); // a:JRadioButton (JPanel:JComponent, Q:ap)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, Q:ap)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+dismissDialog("Implementation Completed"); // Q:ap (cl:JFrame)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// cp:P (cl:JFrame):  Generate Bitstream : addNotify
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// Tcl Message: [Wed Feb 20 12:56:54 2019] Launched impl_1... Run output will be captured here: C:/Users/16044/Desktop/aa/CurriculumDesign-PrinciplesOfComputerOrganization-master/single_circle/cpu.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // cp:P (cl:JFrame)
+// TclEventType: RUN_COMPLETED
+// Elapsed time: 132 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Hardware Manager, Program Device]", 28, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectMenuItem((HResource) null, "xc7a100t_0"); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aC:ag (cl:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aC:ag)
+// cp:P (cl:JFrame):  Program Device : addNotify
+dismissDialog("Program Device"); // aC:ag (cl:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/16044/Desktop/aa/CurriculumDesign-PrinciplesOfComputerOrganization-master/single_circle/cpu.runs/impl_1/TopLayer.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'x' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // cp:P (cl:JFrame)
+// Elapsed time: 109 seconds
+selectCodeEditor("SwitchFrequency.v", 123, 33); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SwitchFrequency.v", 139, 28); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SwitchFrequency.v", 127, 25); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 12 seconds
+selectCodeEditor("SwitchFrequency.v", 171, 201); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SwitchFrequency.v", 171, 201, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("SwitchFrequency.v", 236, 196); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SwitchFrequency.v", 236, 196, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("SwitchFrequency.v", 236, 196); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SwitchFrequency.v", 299, 317); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SwitchFrequency.v", 299, 317, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("SwitchFrequency.v", 300, 323); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SwitchFrequency.v", 301, 289); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SwitchFrequency.v", 301, 289, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("SwitchFrequency.v", 301, 289); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SwitchFrequency.v", 351, 308); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SwitchFrequency.v", 392, 321); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SwitchFrequency.v", 266, 323); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SwitchFrequency.v", 266, 323, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("SwitchFrequency.v", 266, 323); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SwitchFrequency.v", 327, 336); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SwitchFrequency.v", 311, 303); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SwitchFrequency.v", 311, 303, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("SwitchFrequency.v", 311, 303); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SwitchFrequency.v", 316, 320); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SwitchFrequency.v", 317, 318, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("SwitchFrequency.v", 317, 318); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SwitchFrequency.v", 330, 339); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SwitchFrequency.v", 330, 339, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("SwitchFrequency.v", 329, 339); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SwitchFrequency.v", 408, 348); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 31 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // w:Y (v:H, cl:JFrame) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_PROJECT_MANAGER
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _display2 - display2 (decodShowInDisplay.v)]", 3, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _display2 - display2 (decodShowInDisplay.v)]", 3, false, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _halt - halt (halt.v)]", 2, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _halt - halt (halt.v)]", 2, false, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click
+// [GUI Memory]: 97 MB (+1123kb) [00:30:55]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v)]", 1, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v)]", 1, true, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v)]", 1, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _halt - halt (halt.v)]", 2, false, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _IM - IM (IM.v)]", 18, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _entend - extend (extend.v)]", 17, false, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click
+selectCodeEditor("IM.v", 159, 179); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("IM.v", 159, 179, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+// Elapsed time: 12 seconds
+typeControlKey((HResource) null, "IM.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _display2 - display2 (decodShowInDisplay.v)]", 3, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _display2 - display2 (decodShowInDisplay.v)]", 3, false, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v)]", 1, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v)]", 1, true, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v)]", 1, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _halt - halt (halt.v)]", 2, false, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _swifreq - SwitchFreq (SwitchFrequency.v)]", 5, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _swifreq - SwitchFreq (SwitchFrequency.v)]", 5, true, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _swifreq - SwitchFreq (SwitchFrequency.v), divider1 - divider_ (SwitchFrequency.v)]", 6, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _swifreq - SwitchFreq (SwitchFrequency.v), divider1 - divider_ (SwitchFrequency.v)]", 6, false, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _swifreq - SwitchFreq (SwitchFrequency.v), divider1 - divider_ (SwitchFrequency.v)]", 6, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _swifreq - SwitchFreq (SwitchFrequency.v), divider1 - divider_ (SwitchFrequency.v)]", 6, false, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _swifreq - SwitchFreq (SwitchFrequency.v)]", 5, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _swifreq - SwitchFreq (SwitchFrequency.v)]", 5, true, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click - Node
+selectCodeEditor("SwitchFrequency.v", 116, 254); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _swifreq - SwitchFreq (SwitchFrequency.v)]", 5, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _swifreq - SwitchFreq (SwitchFrequency.v)]", 5, true, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click - Node
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _swifreq - SwitchFreq (SwitchFrequency.v), divider2 - divider_ (SwitchFrequency.v)]", 7, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _swifreq - SwitchFreq (SwitchFrequency.v), divider2 - divider_ (SwitchFrequency.v)]", 7, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _swifreq - SwitchFreq (SwitchFrequency.v), divider2 - divider_ (SwitchFrequency.v)]", 7, false, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 17, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// ap:bI (cl:JFrame): Run Synthesis: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ap:bI)
+// cp:P (cl:JFrame):  Resetting Runs : addNotify
+dismissDialog("Run Synthesis"); // ap:bI (cl:JFrame)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// cp:P (cl:JFrame):  Starting Design Runs : addNotify
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: launch_runs synth_1 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Wed Feb 20 13:02:54 2019] Launched synth_1... Run output will be captured here: C:/Users/16044/Desktop/aa/CurriculumDesign-PrinciplesOfComputerOrganization-master/single_circle/cpu.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // cp:P (cl:JFrame)
+selectCodeEditor("SwitchFrequency.v", 190, 298); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 78 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _IM - IM (IM.v)]", 20, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _IM - IM (IM.v)]", 20, false, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click
+// TclEventType: RUN_COMPLETED
+// Q:ap (cl:JFrame): Synthesis Completed: addNotify
+// Elapsed time: 13 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, Q:ap)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// cp:P (cl:JFrame):  Starting Design Runs : addNotify
+// Tcl Message: launch_runs impl_1 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Wed Feb 20 13:04:28 2019] Launched impl_1... Run output will be captured here: C:/Users/16044/Desktop/aa/CurriculumDesign-PrinciplesOfComputerOrganization-master/single_circle/cpu.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // cp:P (cl:JFrame)
+// TclEventType: RUN_STEP_COMPLETED
+// [GUI Memory]: 102 MB (+233kb) [00:33:57]
+// TclEventType: RUN_COMPLETED
+// Q:ap (cl:JFrame): Implementation Completed: addNotify
+// Elapsed time: 132 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_REPORTS_WINDOW, "View Reports"); // a:JRadioButton (JPanel:JComponent, Q:ap)
+selectRadioButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "Generate Bitstream"); // a:JRadioButton (JPanel:JComponent, Q:ap)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, Q:ap)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+dismissDialog("Implementation Completed"); // Q:ap (cl:JFrame)
+// TclEventType: RUN_LAUNCH
+// cp:P (cl:JFrame):  Generate Bitstream : addNotify
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// Tcl Message: [Wed Feb 20 13:06:42 2019] Launched impl_1... Run output will be captured here: C:/Users/16044/Desktop/aa/CurriculumDesign-PrinciplesOfComputerOrganization-master/single_circle/cpu.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // cp:P (cl:JFrame)
+// Elapsed time: 10 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _regfile - regfile (regfile.v)]", 9, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _regfile - regfile (regfile.v)]", 9, false, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click
+// Elapsed time: 17 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _instruDecoder - instruDecoder (insturctionDecoder.v)]", 10, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _instruDecoder - instruDecoder (insturctionDecoder.v)]", 10, false, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _alu - ALU (ALU.v)]", 11, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _alu - ALU (ALU.v)]", 11, false, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _npc - npc (npc.v)]", 12, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _npc - npc (npc.v)]", 12, false, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click
+// HMemoryUtils.trashcanNow. Engine heap size: 602 MB. GUI used memory: 49 MB. Current time: 2/20/19 1:07:17 PM GMT+08:00
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _regfilewrite - RegFileWrite (RegFileWrite.v)]", 17, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _regfilewrite - RegFileWrite (RegFileWrite.v)]", 17, false, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _regfileread - RegFileRead (RegFileRead.v)]", 16, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _regfileread - RegFileRead (RegFileRead.v)]", 16, false, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _regfiletoalu - RegFiletoALU (RegFiletoALU.v)]", 18, false); // A:k (H:JPanel, cl:JFrame)
+// TclEventType: RUN_COMPLETED
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _regfileread - RegFileRead (RegFileRead.v)]", 16, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _regfileread - RegFileRead (RegFileRead.v)]", 16, false, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Hardware Manager, Program Device]", 28, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectMenuItem((HResource) null, "xc7a100t_0"); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aC:ag (cl:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aC:ag)
+// cp:P (cl:JFrame):  Program Device : addNotify
+dismissDialog("Program Device"); // aC:ag (cl:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/16044/Desktop/aa/CurriculumDesign-PrinciplesOfComputerOrganization-master/single_circle/cpu.runs/impl_1/TopLayer.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'x' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // cp:P (cl:JFrame)
+// Elapsed time: 31 seconds
+selectCodeEditor("SwitchFrequency.v", 130, 324); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SwitchFrequency.v", 140, 328); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("SwitchFrequency.v", 83, 89); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectCodeEditor("SwitchFrequency.v", 157, 128); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("SwitchFrequency.v", 154, 123); // bj:J (JPanel:JComponent, cl:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 17, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// ap:bI (cl:JFrame): Run Synthesis: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ap:bI)
+// cp:P (cl:JFrame):  Resetting Runs : addNotify
+dismissDialog("Run Synthesis"); // ap:bI (cl:JFrame)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// cp:P (cl:JFrame):  Starting Design Runs : addNotify
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: launch_runs synth_1 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Wed Feb 20 13:08:47 2019] Launched synth_1... Run output will be captured here: C:/Users/16044/Desktop/aa/CurriculumDesign-PrinciplesOfComputerOrganization-master/single_circle/cpu.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // cp:P (cl:JFrame)
+// TclEventType: RUN_FAILED
+// Q:ap (cl:JFrame): Synthesis Failed: addNotify
+// Elapsed time: 35 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, Q:ap)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // Q:ap (cl:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-285] failed synthesizing module 'divider_' [C:/Users/16044/Desktop/aa/CurriculumDesign-PrinciplesOfComputerOrganization-master/single_circle/cpu.srcs/sources_1/new/SwitchFrequency.v:28]. ]", 5, true); // ae:k (JViewport:JComponent, cl:JFrame) - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\16044\Desktop\aa\CurriculumDesign-PrinciplesOfComputerOrganization-master\single_circle\cpu.srcs\sources_1\new\SwitchFrequency.v;-;;-;16;-;line;-;28;-;;-;16;-;"); // ae:k (JViewport:JComponent, cl:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-502] non-constant real-valued expression is not supported [C:/Users/16044/Desktop/aa/CurriculumDesign-PrinciplesOfComputerOrganization-master/single_circle/cpu.srcs/sources_1/new/SwitchFrequency.v:42]. ]", 4, false); // ae:k (JViewport:JComponent, cl:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\16044\Desktop\aa\CurriculumDesign-PrinciplesOfComputerOrganization-master\single_circle\cpu.srcs\sources_1\new\SwitchFrequency.v;-;;-;16;-;line;-;42;-;;-;16;-;"); // ae:k (JViewport:JComponent, cl:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-502] non-constant real-valued expression is not supported [C:/Users/16044/Desktop/aa/CurriculumDesign-PrinciplesOfComputerOrganization-master/single_circle/cpu.srcs/sources_1/new/SwitchFrequency.v:42]. ]", 4, false); // ae:k (JViewport:JComponent, cl:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\16044\Desktop\aa\CurriculumDesign-PrinciplesOfComputerOrganization-master\single_circle\cpu.srcs\sources_1\new\SwitchFrequency.v;-;;-;16;-;line;-;42;-;;-;16;-;"); // ae:k (JViewport:JComponent, cl:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-285] failed synthesizing module 'divider_' [C:/Users/16044/Desktop/aa/CurriculumDesign-PrinciplesOfComputerOrganization-master/single_circle/cpu.srcs/sources_1/new/SwitchFrequency.v:28]. ]", 5, true); // ae:k (JViewport:JComponent, cl:JFrame) - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\16044\Desktop\aa\CurriculumDesign-PrinciplesOfComputerOrganization-master\single_circle\cpu.srcs\sources_1\new\SwitchFrequency.v;-;;-;16;-;line;-;28;-;;-;16;-;"); // ae:k (JViewport:JComponent, cl:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands]", 0, true); // ae:k (JViewport:JComponent, cl:JFrame) - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\16044\Desktop\aa\CurriculumDesign-PrinciplesOfComputerOrganization-master\single_circle\cpu.srcs\sources_1\new\SwitchFrequency.v;-;;-;16;-;line;-;28;-;;-;16;-;"); // ae:k (JViewport:JComponent, cl:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // w:Y (v:H, cl:JFrame) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_PROJECT_MANAGER
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _swifreq - SwitchFreq (SwitchFrequency.v)]", 5, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _swifreq - SwitchFreq (SwitchFrequency.v)]", 5, true, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click - Node
+selectCodeEditor("SwitchFrequency.v", 99, 220); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SwitchFrequency.v", 99, 220, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("SwitchFrequency.v", 156, 218); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SwitchFrequency.v", 156, 218, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("SwitchFrequency.v", 164, 249); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SwitchFrequency.v", 95, 75); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SwitchFrequency.v", 95, 84); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SwitchFrequency.v", 121, 255); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 17, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// cp:P (cl:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// cp:P (cl:JFrame):  Starting Design Runs : addNotify
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: launch_runs synth_1 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Wed Feb 20 13:10:06 2019] Launched synth_1... Run output will be captured here: C:/Users/16044/Desktop/aa/CurriculumDesign-PrinciplesOfComputerOrganization-master/single_circle/cpu.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // cp:P (cl:JFrame)
+// Elapsed time: 19 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _npc - npc (npc.v)]", 10, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _npc - npc (npc.v)]", 10, false, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click
+// Elapsed time: 18 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _IM - IM (IM.v)]", 18, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _entend - extend (extend.v)]", 17, false, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _DM - DM (DM.v)]", 19, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _DM - DM (DM.v)]", 19, false, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click
+selectCodeEditor("DM.v", 186, 114); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 186, 114, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DM.v", 186, 114); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 196, 147); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 196, 147, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DM.v", 91, 174); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 81, 161); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 81, 159, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DM.v", 80, 159); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 80, 159, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DM.v", 80, 159); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 80, 159, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DM.v", 80, 159); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 80, 159); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 80, 159); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 92, 165); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 102, 278); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 102, 278, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DM.v", 80, 234); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 80, 234, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DM.v", 173, 222); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 19, 218); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 51, 257); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor("DM.v", 259, 330); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 255, 330); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 30, 239); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 184, 8); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 184, 8, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v)]", 1, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v)]", 1, true, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click - Node
+selectCodeEditor("TopLayer.v", 372, 252); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("TopLayer.v", 372, 252, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+// TclEventType: RUN_COMPLETED
+// Q:ap (cl:JFrame): Synthesis Completed: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, Q:ap)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// cp:P (cl:JFrame):  Starting Design Runs : addNotify
+// Tcl Message: launch_runs impl_1 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Wed Feb 20 13:11:40 2019] Launched impl_1... Run output will be captured here: C:/Users/16044/Desktop/aa/CurriculumDesign-PrinciplesOfComputerOrganization-master/single_circle/cpu.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // cp:P (cl:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor("TopLayer.v", 110, 234); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("TopLayer.v", 110, 234, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 10 seconds
+selectCodeEditor("TopLayer.v", 186, 274); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("TopLayer.v", 186, 274, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("TopLayer.v", 292, 258); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("TopLayer.v", 292, 258, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("TopLayer.v", 202, 270); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("TopLayer.v", 202, 270, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("TopLayer.v", 117, 249); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("TopLayer.v", 117, 249, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("TopLayer.v", 93, 268); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("TopLayer.v", 93, 268, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("TopLayer.v", 354, 254); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("TopLayer.v", 354, 254, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+// Elapsed time: 20 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v)]", 1); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _controller - controller (controller.v)]", 6, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _controller - controller (controller.v)]", 6, false, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click
+selectCodeEditor("controller.v", 203, 144); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 234, 214); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 211, 202); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 244, 228); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 233, 210); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 211, 198); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: RUN_COMPLETED
+// Q:ap (cl:JFrame): Implementation Completed: addNotify
+// Elapsed time: 89 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "Generate Bitstream"); // a:JRadioButton (JPanel:JComponent, Q:ap)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, Q:ap)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+dismissDialog("Implementation Completed"); // Q:ap (cl:JFrame)
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// TclEventType: RUN_MODIFY
+// cp:P (cl:JFrame):  Generate Bitstream : addNotify
+// Tcl Message: [Wed Feb 20 13:14:18 2019] Launched impl_1... Run output will be captured here: C:/Users/16044/Desktop/aa/CurriculumDesign-PrinciplesOfComputerOrganization-master/single_circle/cpu.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // cp:P (cl:JFrame)
+selectCodeEditor("controller.v", 64, 214); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 64, 214, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("controller.v", 64, 214); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 160, 199); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 160, 199, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("controller.v", 160, 199); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 203, 201); // bj:J (JPanel:JComponent, cl:JFrame)
+// [GUI Memory]: 107 MB (+238kb) [00:43:20]
+selectCodeEditor("controller.v", 94, 218); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 94, 218, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("controller.v", 172, 202); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 172, 202, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("controller.v", 161, 196); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 161, 196, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("controller.v", 161, 196); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 153, 194); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 153, 194, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("controller.v", 153, 194); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 122, 194); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 122, 194, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("controller.v", 122, 194); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 122, 194); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 122, 194); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 122, 201); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 122, 201, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("controller.v", 130, 203); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 174, 198); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 166, 197); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 160, 197); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 165, 195); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: RUN_COMPLETED
+// Elapsed time: 95 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Hardware Manager, Program Device]", 28, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectMenuItem((HResource) null, "xc7a100t_0"); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aC:ag (cl:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aC:ag)
+// cp:P (cl:JFrame):  Program Device : addNotify
+dismissDialog("Program Device"); // aC:ag (cl:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/16044/Desktop/aa/CurriculumDesign-PrinciplesOfComputerOrganization-master/single_circle/cpu.runs/impl_1/TopLayer.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'x' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // cp:P (cl:JFrame)
+// Elapsed time: 21 seconds
+selectCodeEditor("SwitchFrequency.v", 120, 205); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SwitchFrequency.v", 123, 200); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 11 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // w:Y (v:H, cl:JFrame) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_PROJECT_MANAGER
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _swifreq - SwitchFreq (SwitchFrequency.v)]", 5, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _swifreq - SwitchFreq (SwitchFrequency.v)]", 5, true, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click - Node
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "TopLayer.v", 4); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "decodShowInDisplay.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "halt.v", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "TopLayer.v", 4); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "IM.v", 5); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // F:b
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // F:b
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // F:b
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // F:b
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // F:b
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // F:b
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // F:b
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // F:b
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // F:b
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "IM.v", 4); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+// Elapsed time: 15 seconds
+selectCodeEditor("DM.v", 58, 197); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 272, 329); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 272, 329); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 248, 319); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 154, 340); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 144, 350); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 45, 138); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 412, 270); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 408, 270); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 93, 201); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 16 seconds
+selectCodeEditor("DM.v", 226, 240); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 189, 258); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 102, 150); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 76, 166); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 38 seconds
+selectCodeEditor("DM.v", 198, 146); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 198, 146, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DM.v", 198, 146); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 198, 146, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DM.v", 198, 155); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 198, 155, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DM.v", 209, 157); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 209, 157, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DM.v", 208, 194); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 208, 194, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DM.v", 214, 197); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 214, 197, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DM.v", 190, 198); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 190, 198, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DM.v", 262, 200); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 301, 145); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 354, 156); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 362, 177); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 20, 166); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 27, 140); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 27, 140, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DM.v", 27, 140); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 30, 150); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 30, 150, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DM.v", 30, 150); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 32, 161); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 32, 161, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DM.v", 32, 161); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 32, 174); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 32, 174, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DM.v", 23, 200); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 23, 199, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DM.v", 34, 150); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 34, 150, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DM.v", 37, 166); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 37, 166, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DM.v", 33, 176); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 33, 176, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DM.v", 25, 192); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 25, 194, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DM.v", 25, 183); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 25, 183, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DM.v", 25, 156); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 25, 156, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DM.v", 27, 138); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 27, 138, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DM.v", 27, 115); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 27, 115, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DM.v", 28, 183); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 28, 183, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DM.v", 30, 195); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 30, 195, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DM.v", 75, 183); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 75, 183, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DM.v", 149, 220); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 149, 220, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DM.v", 149, 220); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 140, 243); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 140, 243, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DM.v", 140, 243); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 137, 265); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 137, 265, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DM.v", 137, 263); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 144, 276); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 144, 276, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DM.v", 144, 276); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 142, 260); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 141, 259, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DM.v", 137, 241); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 137, 241, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DM.v", 130, 223); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 130, 223, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DM.v", 204, 316); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 228, 309); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 29 seconds
+selectCodeEditor("DM.v", 304, 230); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 349, 248); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 348, 247); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 340, 238); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 230, 265); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 230, 265, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DM.v", 230, 265); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 230, 265); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 225, 239); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 225, 238, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DM.v", 240, 254); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 240, 254, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DM.v", 235, 241); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 235, 241, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DM.v", 238, 256); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 238, 256, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DM.v", 238, 238); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 238, 238, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DM.v", 242, 254); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 242, 254, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DM.v", 242, 242); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 242, 242, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DM.v", 244, 258); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 244, 258, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DM.v", 241, 242); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 241, 242, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DM.v", 243, 256); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 244, 257, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DM.v", 244, 241); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 244, 241, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DM.v", 253, 261); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 253, 261, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DM.v", 251, 246); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 251, 245, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DM.v", 281, 187); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 281, 187, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DM.v", 239, 171); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 229, 154); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 92, 77); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 92, 77, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DM.v", 92, 77); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 93, 77); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 116, 78); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 116, 78, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DM.v", 92, 82); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 92, 82, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DM.v", 92, 82); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 118, 122); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 118, 122, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DM.v", 118, 122); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 105, 93); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 105, 93, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DM.v", 105, 93); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 100, 85); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 99, 85, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DM.v", 99, 85); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 192, 75); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 178, 72); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 176, 78); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 16 seconds
+selectCodeEditor("DM.v", 96, 270); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 96, 270, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DM.v", 84, 297); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 84, 297, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+// Elapsed time: 22 seconds
+selectCodeEditor("DM.v", 324, 292); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 278, 275); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 310, 242); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 279, 266); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 280, 234); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 286, 202); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 252, 238); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 250, 262); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 256, 241); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 252, 269); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 252, 254); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 255, 245); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 250, 264); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 25 seconds
+selectCodeEditor("DM.v", 56, 257); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 56, 257, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DM.v", 56, 257); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 48, 196); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 250, 350); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 28, 179); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 21, 213); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 238, 317); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 86, 202); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 86, 202, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DM.v", 156, 200); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 156, 200, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DM.v", 102, 198); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 73, 225); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 130, 228); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 130, 228, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DM.v", 130, 228); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 124, 231); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 124, 231, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DM.v", 249, 234); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 249, 234, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DM.v", 249, 234); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 14 seconds
+selectCodeEditor("DM.v", 216, 280); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 214, 261); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 29 seconds
+selectCodeEditor("DM.v", 249, 178); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 249, 178, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DM.v", 249, 178); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 249, 178); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 249, 178); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 249, 178); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 242, 164); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 240, 162, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DM.v", 240, 162); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 235, 124); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 235, 124, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DM.v", 235, 124); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 232, 115); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 232, 108); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 349 seconds
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _swifreq - SwitchFreq (SwitchFrequency.v)]", 5); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _controller - controller (controller.v)]", 6, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _controller - controller (controller.v)]", 6, false, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _swifreq - SwitchFreq (SwitchFrequency.v)]", 5, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _swifreq - SwitchFreq (SwitchFrequency.v)]", 5, true, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click - Node
+selectCodeEditor("SwitchFrequency.v", 219, 251); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SwitchFrequency.v", 219, 251, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("SwitchFrequency.v", 219, 251); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SwitchFrequency.v", 137, 126); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SwitchFrequency.v", 137, 126, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("SwitchFrequency.v", 137, 149); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SwitchFrequency.v", 137, 149, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("SwitchFrequency.v", 133, 164); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SwitchFrequency.v", 133, 164, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("SwitchFrequency.v", 133, 219); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SwitchFrequency.v", 133, 219, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("SwitchFrequency.v", 179, 294); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SwitchFrequency.v", 156, 218); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SwitchFrequency.v", 156, 218, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("SwitchFrequency.v", 109, 213); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SwitchFrequency.v", 109, 213, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("SwitchFrequency.v", 402, 278, false, true, false, false, false); // bj:J (JPanel:JComponent, cl:JFrame) - Control Key
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 17, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// ap:bI (cl:JFrame): Run Synthesis: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ap:bI)
+// cp:P (cl:JFrame):  Resetting Runs : addNotify
+dismissDialog("Run Synthesis"); // ap:bI (cl:JFrame)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// cp:P (cl:JFrame):  Starting Design Runs : addNotify
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 
+// Tcl Message: [Wed Feb 20 13:29:55 2019] Launched synth_1... Run output will be captured here: C:/Users/16044/Desktop/aa/CurriculumDesign-PrinciplesOfComputerOrganization-master/single_circle/cpu.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // cp:P (cl:JFrame)
+// Elapsed time: 13 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _controller - controller (controller.v)]", 8, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _controller - controller (controller.v)]", 8, false, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click
+selectCodeEditor("controller.v", 114, 81); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 91, 163); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 90, 134); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor("controller.v", 82, 291); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 94, 312); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 89, 295); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 105, 317); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 102, 235); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 103, 268); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 99, 292); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 96, 255); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 89, 233); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 86, 202); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 110, 238); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 91, 242); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 95, 257); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 88, 273); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 88, 273, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("controller.v", 88, 273); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 90, 291); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 90, 291, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("controller.v", 90, 291); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 100, 238); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 100, 238, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("controller.v", 100, 238); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 94, 217); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 94, 217, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("controller.v", 100, 243); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 98, 234); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 99, 262); // bj:J (JPanel:JComponent, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _regfiletoalu - RegFiletoALU (RegFiletoALU.v)]", 18, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _regfiletoalu - RegFiletoALU (RegFiletoALU.v)]", 18, false, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click
+selectCodeEditor("RegFiletoALU.v", 69, 163); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RegFiletoALU.v", 69, 163, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("RegFiletoALU.v", 53, 132); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RegFiletoALU.v", 53, 132, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("RegFiletoALU.v", 59, 185); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RegFiletoALU.v", 59, 185, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("RegFiletoALU.v", 68, 274); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RegFiletoALU.v", 68, 274, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("RegFiletoALU.v", 76, 258); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RegFiletoALU.v", 76, 258, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("RegFiletoALU.v", 48, 230); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RegFiletoALU.v", 48, 230, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("RegFiletoALU.v", 67, 267); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RegFiletoALU.v", 67, 267, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("RegFiletoALU.v", 86, 273); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("RegFiletoALU.v", 86, 273, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _entend - extend (extend.v)]", 19, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _entend - extend (extend.v)]", 19, false, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click
+// Elapsed time: 12 seconds
+selectCodeEditor("extend.v", 76, 179); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("extend.v", 76, 179, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("extend.v", 55, 217); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("extend.v", 55, 217, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("extend.v", 50, 191); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("extend.v", 50, 191, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("extend.v", 73, 253); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("extend.v", 73, 253, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+// TclEventType: RUN_COMPLETED
+// Q:ap (cl:JFrame): Synthesis Completed: addNotify
+// [GUI Memory]: 112 MB (+79kb) [01:00:20]
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, Q:ap)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// cp:P (cl:JFrame):  Starting Design Runs : addNotify
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Wed Feb 20 13:31:29 2019] Launched impl_1... Run output will be captured here: C:/Users/16044/Desktop/aa/CurriculumDesign-PrinciplesOfComputerOrganization-master/single_circle/cpu.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // cp:P (cl:JFrame)
+selectCodeEditor("extend.v", 268, 260); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("extend.v", 267, 259, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("extend.v", 282, 292); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("extend.v", 126, 330); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("extend.v", 269, 301); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("extend.v", 301, 276); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("extend.v", 301, 276, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("extend.v", 312, 274); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("extend.v", 312, 274, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("extend.v", 317, 278); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: RUN_STEP_COMPLETED
+selectCodeEditor("extend.v", 325, 275); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("extend.v", 320, 275); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("extend.v", 312, 278); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("extend.v", 303, 278); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("extend.v", 62, 262); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("extend.v", 62, 262, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("extend.v", 97, 262); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("extend.v", 97, 262, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("extend.v", 126, 290); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 12 seconds
+selectCodeEditor("extend.v", 192, 282); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("extend.v", 194, 298); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: RUN_COMPLETED
+// Q:ap (cl:JFrame): Implementation Completed: addNotify
+// Elapsed time: 208 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "Generate Bitstream"); // a:JRadioButton (JPanel:JComponent, Q:ap)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, Q:ap)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+dismissDialog("Implementation Completed"); // Q:ap (cl:JFrame)
+// TclEventType: RUN_LAUNCH
+// cp:P (cl:JFrame):  Generate Bitstream : addNotify
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Wed Feb 20 13:35:42 2019] Launched impl_1... Run output will be captured here: C:/Users/16044/Desktop/aa/CurriculumDesign-PrinciplesOfComputerOrganization-master/single_circle/cpu.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // cp:P (cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _IM - IM (IM.v)]", 20, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _DM - DM (DM.v)]", 21, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _DM - DM (DM.v)]", 21, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _DM - DM (DM.v)]", 21, false, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click
+selectCodeEditor("DM.v", 266, 184); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 266, 184, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+// TclEventType: RUN_COMPLETED
+// Elapsed time: 40 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Hardware Manager, Program Device]", 28, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectMenuItem((HResource) null, "xc7a100t_0"); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aC:ag (cl:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aC:ag)
+// cp:P (cl:JFrame):  Program Device : addNotify
+dismissDialog("Program Device"); // aC:ag (cl:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/16044/Desktop/aa/CurriculumDesign-PrinciplesOfComputerOrganization-master/single_circle/cpu.runs/impl_1/TopLayer.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'x' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // cp:P (cl:JFrame)
+// Elapsed time: 11 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // w:Y (v:H, cl:JFrame) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_PROJECT_MANAGER
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v)]", 1, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v)]", 1, true, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v)]", 1, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _halt - halt (halt.v)]", 2, false, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _swifreq - SwitchFreq (SwitchFrequency.v)]", 5, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _swifreq - SwitchFreq (SwitchFrequency.v)]", 5, true, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click - Node
+selectCodeEditor("SwitchFrequency.v", 80, 215); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SwitchFrequency.v", 83, 215); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 12 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _IM - IM (IM.v)]", 18, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _IM - IM (IM.v)]", 18, false, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click
+selectCodeEditor("IM.v", 268, 176); // bj:J (JPanel:JComponent, cl:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 602 MB. GUI used memory: 55 MB. Current time: 2/20/19 1:37:17 PM GMT+08:00
+selectCodeEditor("IM.v", 146, 182); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 17, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// ap:bI (cl:JFrame): Run Synthesis: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ap:bI)
+// cp:P (cl:JFrame):  Resetting Runs : addNotify
+dismissDialog("Run Synthesis"); // ap:bI (cl:JFrame)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// cp:P (cl:JFrame):  Starting Design Runs : addNotify
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs synth_1 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Wed Feb 20 13:37:28 2019] Launched synth_1... Run output will be captured here: C:/Users/16044/Desktop/aa/CurriculumDesign-PrinciplesOfComputerOrganization-master/single_circle/cpu.runs/synth_1/runme.log 
+// 'm' command handler elapsed time: 3 seconds
+dismissDialog("Starting Design Runs"); // cp:P (cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _DM - DM (DM.v)]", 19, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _DM - DM (DM.v)]", 19, false, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click
+// TclEventType: RUN_COMPLETED
+// Q:ap (cl:JFrame): Synthesis Completed: addNotify
+// Elapsed time: 94 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, Q:ap)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// cp:P (cl:JFrame):  Starting Design Runs : addNotify
+// Tcl Message: launch_runs impl_1 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Wed Feb 20 13:39:06 2019] Launched impl_1... Run output will be captured here: C:/Users/16044/Desktop/aa/CurriculumDesign-PrinciplesOfComputerOrganization-master/single_circle/cpu.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // cp:P (cl:JFrame)
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 28 seconds
+selectCodeEditor("DM.v", 191, 148); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 191, 148, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DM.v", 191, 148); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 191, 148); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 191, 148, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DM.v", 191, 148); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 188, 166); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 188, 166, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DM.v", 188, 166); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 207, 191); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 314, 215); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 319, 205); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: RUN_COMPLETED
+// Q:ap (cl:JFrame): Implementation Completed: addNotify
+// Elapsed time: 66 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "Generate Bitstream"); // a:JRadioButton (JPanel:JComponent, Q:ap)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, Q:ap)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+dismissDialog("Implementation Completed"); // Q:ap (cl:JFrame)
+// TclEventType: RUN_LAUNCH
+// cp:P (cl:JFrame):  Generate Bitstream : addNotify
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// Tcl Message: [Wed Feb 20 13:40:47 2019] Launched impl_1... Run output will be captured here: C:/Users/16044/Desktop/aa/CurriculumDesign-PrinciplesOfComputerOrganization-master/single_circle/cpu.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // cp:P (cl:JFrame)
+// TclEventType: RUN_COMPLETED
+// Elapsed time: 68 seconds
+selectCodeEditor("DM.v", 108, 77); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 108, 75, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DM.v", 112, 63); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 118, 104); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 118, 104, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DM.v", 121, 58); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 121, 58, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DM.v", 112, 98); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 112, 98, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+// Elapsed time: 40 seconds
+selectCodeEditor("DM.v", 106, 105); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 106, 105, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DM.v", 144, 98); // bj:J (JPanel:JComponent, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v)]", 1, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v)]", 1, true, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Hardware Manager, Program Device]", 28, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectMenuItem((HResource) null, "xc7a100t_0"); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aC:ag (cl:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aC:ag)
+// cp:P (cl:JFrame):  Program Device : addNotify
+dismissDialog("Program Device"); // aC:ag (cl:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/16044/Desktop/aa/CurriculumDesign-PrinciplesOfComputerOrganization-master/single_circle/cpu.runs/impl_1/TopLayer.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'x' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // cp:P (cl:JFrame)
+// Elapsed time: 20 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // w:Y (v:H, cl:JFrame) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_PROJECT_MANAGER
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v)]", 1, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _halt - halt (halt.v)]", 2, false, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _IM - IM (IM.v)]", 18, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _IM - IM (IM.v)]", 18, false, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click
+selectCodeEditor("IM.v", 173, 181); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 17, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// ap:bI (cl:JFrame): Run Synthesis: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ap:bI)
+// cp:P (cl:JFrame):  Resetting Runs : addNotify
+dismissDialog("Run Synthesis"); // ap:bI (cl:JFrame)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// cp:P (cl:JFrame):  Starting Design Runs : addNotify
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: launch_runs synth_1 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Wed Feb 20 13:43:29 2019] Launched synth_1... Run output will be captured here: C:/Users/16044/Desktop/aa/CurriculumDesign-PrinciplesOfComputerOrganization-master/single_circle/cpu.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // cp:P (cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _DM - DM (DM.v)]", 19, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _DM - DM (DM.v)]", 19, false, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click
+selectCodeEditor("DM.v", 112, 113); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 112, 113, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v)]", 1, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v)]", 1, true, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click - Node
+selectCodeEditor("TopLayer.v", 104, 181); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("TopLayer.v", 104, 181, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v)]", 1); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _counter - counter (counter.v)]", 12, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _counter - counter (counter.v)]", 12, false, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _controller - controller (controller.v)]", 6, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _controller - controller (controller.v)]", 6, false, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click
+selectCodeEditor("controller.v", 101, 257); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 101, 257, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("controller.v", 101, 257); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 37 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "DM.v", 4); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectCodeEditor("DM.v", 171, 185); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 171, 185, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DM.v", 80, 177); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: RUN_COMPLETED
+selectCodeEditor("DM.v", 80, 177, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+// Q:ap (cl:JFrame): Synthesis Completed: addNotify
+selectRadioButton(PAResourceCommand.PACommandNames_GOTO_NETLIST_DESIGN, "Open Synthesized Design"); // a:JRadioButton (JPanel:JComponent, Q:ap)
+selectRadioButton(PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION, "Run Implementation"); // a:JRadioButton (JPanel:JComponent, Q:ap)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, Q:ap)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// cp:P (cl:JFrame):  Starting Design Runs : addNotify
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Wed Feb 20 13:44:53 2019] Launched impl_1... Run output will be captured here: C:/Users/16044/Desktop/aa/CurriculumDesign-PrinciplesOfComputerOrganization-master/single_circle/cpu.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // cp:P (cl:JFrame)
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 31 seconds
+selectCodeEditor("DM.v", 156, 247); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 16 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "controller.v", 5); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectCodeEditor("controller.v", 79, 110); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 79, 110, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("controller.v", 138, 104); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 104, 202); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 104, 202, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("controller.v", 104, 201); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 226, 194); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: RUN_COMPLETED
+// Q:ap (cl:JFrame): Implementation Completed: addNotify
+// Elapsed time: 38 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "Generate Bitstream"); // a:JRadioButton (JPanel:JComponent, Q:ap)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, Q:ap)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+dismissDialog("Implementation Completed"); // Q:ap (cl:JFrame)
+// TclEventType: RUN_LAUNCH
+// cp:P (cl:JFrame):  Generate Bitstream : addNotify
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Wed Feb 20 13:46:36 2019] Launched impl_1... Run output will be captured here: C:/Users/16044/Desktop/aa/CurriculumDesign-PrinciplesOfComputerOrganization-master/single_circle/cpu.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // cp:P (cl:JFrame)
+selectCodeEditor("controller.v", 134, 206); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: RUN_COMPLETED
+// Elapsed time: 129 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Hardware Manager, Program Device]", 28, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectMenuItem((HResource) null, "xc7a100t_0"); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aC:ag (cl:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aC:ag)
+// cp:P (cl:JFrame):  Program Device : addNotify
+dismissDialog("Program Device"); // aC:ag (cl:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/16044/Desktop/aa/CurriculumDesign-PrinciplesOfComputerOrganization-master/single_circle/cpu.runs/impl_1/TopLayer.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'x' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // cp:P (cl:JFrame)
+// Elapsed time: 46 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // w:Y (v:H, cl:JFrame) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_PROJECT_MANAGER
+// Elapsed time: 14 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v)]", 1, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v)]", 1, true, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v)]", 1, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _halt - halt (halt.v)]", 2, false, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _swifreq - SwitchFreq (SwitchFrequency.v)]", 5, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _swifreq - SwitchFreq (SwitchFrequency.v)]", 5, true, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click - Node
+selectCodeEditor("SwitchFrequency.v", 95, 218); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SwitchFrequency.v", 105, 215); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SwitchFrequency.v", 85, 257, false, true, false, false, false); // bj:J (JPanel:JComponent, cl:JFrame) - Control Key
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 17, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// ap:bI (cl:JFrame): Run Synthesis: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ap:bI)
+// cp:P (cl:JFrame):  Resetting Runs : addNotify
+dismissDialog("Run Synthesis"); // ap:bI (cl:JFrame)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// cp:P (cl:JFrame):  Starting Design Runs : addNotify
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: launch_runs synth_1 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Wed Feb 20 13:50:18 2019] Launched synth_1... Run output will be captured here: C:/Users/16044/Desktop/aa/CurriculumDesign-PrinciplesOfComputerOrganization-master/single_circle/cpu.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // cp:P (cl:JFrame)
+// Elapsed time: 19 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _DM - DM (DM.v)]", 21, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _DM - DM (DM.v)]", 21, false, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click
+selectCodeEditor("DM.v", 214, 96); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 214, 96, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DM.v", 192, 80); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 92, 89); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 184, 84); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 154, 84); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 383, 80); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 376, 81); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 64, 120); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 91, 207); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 305, 208); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 131, 162); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 246, 183); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 56, 163); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 56, 163, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DM.v", 265, 211); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 260, 212); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 6, 162); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 15, 158); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 287, 222); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 283, 218); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 2, 162); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 1, 161); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 296, 213); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 277, 216); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 281, 219); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 350, 218); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 350, 218, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DM.v", 350, 218); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 29, 163); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 29, 163, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DM.v", 29, 163); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 29, 163); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 23, 162); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 22, 161, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DM.v", 296, 257); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 10 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v)]", 1, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v)]", 1, true, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v)]", 1, true); // A:k (H:JPanel, cl:JFrame) - Node
+// TclEventType: RUN_COMPLETED
+// Q:ap (cl:JFrame): Synthesis Completed: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, Q:ap)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// cp:P (cl:JFrame):  Starting Design Runs : addNotify
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Wed Feb 20 13:51:41 2019] Launched impl_1... Run output will be captured here: C:/Users/16044/Desktop/aa/CurriculumDesign-PrinciplesOfComputerOrganization-master/single_circle/cpu.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // cp:P (cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _swifreq - SwitchFreq (SwitchFrequency.v)]", 5, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _swifreq - SwitchFreq (SwitchFrequency.v)]", 5, true, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click - Node
+selectCodeEditor("SwitchFrequency.v", 108, 223); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SwitchFrequency.v", 108, 223, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _swifreq - SwitchFreq (SwitchFrequency.v)]", 5, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _swifreq - SwitchFreq (SwitchFrequency.v)]", 5, true, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _swifreq - SwitchFreq (SwitchFrequency.v), divider1 - divider_ (SwitchFrequency.v)]", 6, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _swifreq - SwitchFreq (SwitchFrequency.v), divider1 - divider_ (SwitchFrequency.v)]", 6, false, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click
+// TclEventType: RUN_STEP_COMPLETED
+selectCodeEditor("SwitchFrequency.v", 104, 212); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("SwitchFrequency.v", 104, 212, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0, true, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0, true, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v)]", 1, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v)]", 1, true, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click - Node
+selectCodeEditor("TopLayer.v", 166, 264); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("TopLayer.v", 166, 264, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("TopLayer.v", 166, 264); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("TopLayer.v", 166, 273); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("TopLayer.v", 166, 273, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("TopLayer.v", 166, 273); // bj:J (JPanel:JComponent, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v)]", 1, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v)]", 1, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _halt - halt (halt.v)]", 2, false, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _controller - controller (controller.v)]", 8, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _controller - controller (controller.v)]", 8, false, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _swifreq - SwitchFreq (SwitchFrequency.v), divider1 - divider_ (SwitchFrequency.v)]", 6, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _controller - controller (controller.v)]", 8, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _controller - controller (controller.v)]", 8, false, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _DM - DM (DM.v)]", 21, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _DM - DM (DM.v)]", 21, false, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click
+selectCodeEditor("DM.v", 206, 258); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 206, 258, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DM.v", 193, 217); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 193, 217, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DM.v", 214, 175); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 214, 175, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DM.v", 216, 218); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 216, 218, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DM.v", 217, 263); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 217, 263, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DM.v", 211, 296); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 211, 296, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DM.v", 252, 302); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 199, 290); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 199, 290, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DM.v", 202, 253); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 204, 253, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DM.v", 216, 221); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 216, 221, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DM.v", 223, 170); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 223, 168, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DM.v", 212, 174); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 212, 174, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DM.v", 199, 137); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 26 seconds
+selectCodeEditor("DM.v", 160, 101); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 160, 101, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+// TclEventType: RUN_COMPLETED
+selectCodeEditor("DM.v", 205, 101); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 205, 101, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+// Q:ap (cl:JFrame): Implementation Completed: addNotify
+selectRadioButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "Generate Bitstream"); // a:JRadioButton (JPanel:JComponent, Q:ap)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, Q:ap)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+dismissDialog("Implementation Completed"); // Q:ap (cl:JFrame)
+// TclEventType: RUN_LAUNCH
+// cp:P (cl:JFrame):  Generate Bitstream : addNotify
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// Tcl Message: [Wed Feb 20 13:53:14 2019] Launched impl_1... Run output will be captured here: C:/Users/16044/Desktop/aa/CurriculumDesign-PrinciplesOfComputerOrganization-master/single_circle/cpu.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // cp:P (cl:JFrame)
+// TclEventType: RUN_COMPLETED
+// Elapsed time: 80 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Hardware Manager, Program Device]", 28, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectMenuItem((HResource) null, "xc7a100t_0"); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aC:ag (cl:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aC:ag)
+// cp:P (cl:JFrame):  Program Device : addNotify
+dismissDialog("Program Device"); // aC:ag (cl:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/16044/Desktop/aa/CurriculumDesign-PrinciplesOfComputerOrganization-master/single_circle/cpu.runs/impl_1/TopLayer.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'x' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // cp:P (cl:JFrame)
+// Elapsed time: 124 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // w:Y (v:H, cl:JFrame) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_PROJECT_MANAGER
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v)]", 1, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v)]", 1, true, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v)]", 1); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _entend - extend (extend.v)]", 19, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _entend - extend (extend.v)]", 19, false, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click
+selectCodeEditor("extend.v", 315, 327); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("extend.v", 315, 327, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("extend.v", 315, 327); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("extend.v", 118, 55); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("extend.v", 118, 55, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("extend.v", 118, 55); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("extend.v", 106, 74); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("extend.v", 111, 45); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("extend.v", 111, 45, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("extend.v", 102, 64); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("extend.v", 102, 64, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("extend.v", 102, 64); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("extend.v", 88, 85); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("extend.v", 88, 85, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("extend.v", 88, 85); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("extend.v", 107, 123); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("extend.v", 107, 123, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("extend.v", 112, 92); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("extend.v", 112, 92, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("extend.v", 123, 70); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 251 seconds
+selectCodeEditor("extend.v", 141, 286); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("extend.v", 101, 69); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 10 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v)]", 1, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v)]", 1, true, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click - Node
+// Elapsed time: 31 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v)]", 1); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _controller - controller (controller.v)]", 8, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _controller - controller (controller.v)]", 8, false, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click
+selectCodeEditor("controller.v", 92, 238); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 92, 238, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("controller.v", 221, 240); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 221, 240, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("controller.v", 248, 235); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 248, 235, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("controller.v", 127, 206); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 127, 206, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("controller.v", 146, 200); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 146, 200, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+// [GUI Memory]: 118 MB (+122kb) [01:31:42]
+// Elapsed time: 48 seconds
+selectCodeEditor("controller.v", 182, 294); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 206, 295); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 196, 292); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 226, 310); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 218, 286); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 207, 255); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 24 seconds
+selectCodeEditor("controller.v", 381, 255); // bj:J (JPanel:JComponent, cl:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 602 MB. GUI used memory: 61 MB. Current time: 2/20/19 2:07:17 PM GMT+08:00
+// Elapsed time: 501 seconds
+selectCodeEditor("controller.v", 223, 200); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 227, 181); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 191, 130); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 189, 150); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 192, 132); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 192, 141); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 16 seconds
+selectCodeEditor("controller.v", 236, 216); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 201, 170); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 203, 118); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 248, 159); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 248, 159, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("controller.v", 248, 159); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 223, 146); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 223, 146, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("controller.v", 223, 146); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 246, 165); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 246, 165, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("controller.v", 251, 191); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 241, 162); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 241, 162, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("controller.v", 236, 306); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 236, 306, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("controller.v", 299, 306); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 299, 306, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("controller.v", 299, 306); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 161, 305); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 161, 305, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("controller.v", 123, 306); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 149, 256); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 149, 256, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("controller.v", 84, 138); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 84, 138, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("controller.v", 121, 146); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 121, 146, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("controller.v", 126, 144); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 115, 145); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 172, 149); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 152, 44); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 158, 109); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 152, 104); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 94, 105); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 150, 103); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 98, 102); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 169, 102); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 226, 105); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 128, 122); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 128, 122, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+// Elapsed time: 44 seconds
+selectCodeEditor("controller.v", 98, 234); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 96, 199); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 96, 199, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("controller.v", 252, 194); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 252, 193, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("controller.v", 252, 193); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 276, 202); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 289, 199); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 289, 199, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("controller.v", 306, 238); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 306, 238, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("controller.v", 303, 235); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 303, 235, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("controller.v", 378, 235); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 378, 235, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+// Elapsed time: 21 seconds
+selectCodeEditor("controller.v", 454, 239); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 16 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 17, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// ap:bI (cl:JFrame): Run Synthesis: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ap:bI)
+// cp:P (cl:JFrame):  Resetting Runs : addNotify
+dismissDialog("Run Synthesis"); // ap:bI (cl:JFrame)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// cp:P (cl:JFrame):  Starting Design Runs : addNotify
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: launch_runs synth_1 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Wed Feb 20 14:15:15 2019] Launched synth_1... Run output will be captured here: C:/Users/16044/Desktop/aa/CurriculumDesign-PrinciplesOfComputerOrganization-master/single_circle/cpu.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // cp:P (cl:JFrame)
+// TclEventType: RUN_COMPLETED
+// Q:ap (cl:JFrame): Synthesis Completed: addNotify
+// Elapsed time: 88 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, Q:ap)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// cp:P (cl:JFrame):  Starting Design Runs : addNotify
+// Tcl Message: launch_runs impl_1 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Wed Feb 20 14:16:44 2019] Launched impl_1... Run output will be captured here: C:/Users/16044/Desktop/aa/CurriculumDesign-PrinciplesOfComputerOrganization-master/single_circle/cpu.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // cp:P (cl:JFrame)
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// Q:ap (cl:JFrame): Implementation Completed: addNotify
+// Elapsed time: 88 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "Generate Bitstream"); // a:JRadioButton (JPanel:JComponent, Q:ap)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, Q:ap)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+dismissDialog("Implementation Completed"); // Q:ap (cl:JFrame)
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Wed Feb 20 14:18:14 2019] Launched impl_1... Run output will be captured here: C:/Users/16044/Desktop/aa/CurriculumDesign-PrinciplesOfComputerOrganization-master/single_circle/cpu.runs/impl_1/runme.log 
+// TclEventType: RUN_COMPLETED
+// Elapsed time: 59 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Hardware Manager, Program Device]", 28, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectMenuItem((HResource) null, "xc7a100t_0"); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aC:ag (cl:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aC:ag)
+// cp:P (cl:JFrame):  Program Device : addNotify
+dismissDialog("Program Device"); // aC:ag (cl:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/16044/Desktop/aa/CurriculumDesign-PrinciplesOfComputerOrganization-master/single_circle/cpu.runs/impl_1/TopLayer.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'x' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // cp:P (cl:JFrame)
+// Elapsed time: 82 seconds
+selectCodeEditor("SwitchFrequency.v", 204, 133); // bj:J (JPanel:JComponent, cl:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // w:Y (v:H, cl:JFrame) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_PROJECT_MANAGER
+selectCodeEditor("IM.v", 103, 188); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("IM.v", 108, 214); // bj:J (JPanel:JComponent, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v)]", 1, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v)]", 1, true, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v)]", 1, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _halt - halt (halt.v)]", 2, false, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click
+selectCodeEditor("TopLayer.v", 135, 198); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("TopLayer.v", 135, 198, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("TopLayer.v", 135, 198); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("TopLayer.v", 158, 211); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("TopLayer.v", 158, 211, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("TopLayer.v", 158, 211); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("TopLayer.v", 158, 202); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("TopLayer.v", 158, 202, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("TopLayer.v", 158, 202); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("TopLayer.v", 186, 219); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("TopLayer.v", 186, 219, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("TopLayer.v", 186, 219); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("TopLayer.v", 174, 207); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("TopLayer.v", 174, 207, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("TopLayer.v", 198, 200); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("TopLayer.v", 198, 200, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("TopLayer.v", 250, 204); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("TopLayer.v", 250, 204, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("TopLayer.v", 274, 197); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("TopLayer.v", 274, 197, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("TopLayer.v", 343, 196); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("TopLayer.v", 343, 196, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("TopLayer.v", 332, 194); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("TopLayer.v", 332, 194, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("TopLayer.v", 290, 174); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("TopLayer.v", 290, 174, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("TopLayer.v", 271, 158); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("TopLayer.v", 271, 158, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("TopLayer.v", 271, 158); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("TopLayer.v", 274, 143); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("TopLayer.v", 274, 143, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("TopLayer.v", 282, 108); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("TopLayer.v", 282, 108, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("TopLayer.v", 242, 73); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("TopLayer.v", 242, 73, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("TopLayer.v", 242, 73); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("TopLayer.v", 225, 87); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("TopLayer.v", 225, 87, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("TopLayer.v", 225, 87); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("TopLayer.v", 229, 63); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("TopLayer.v", 229, 63, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("TopLayer.v", 229, 63); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("TopLayer.v", 231, 46); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("TopLayer.v", 231, 46, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("TopLayer.v", 231, 46); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("TopLayer.v", 189, 93); // bj:J (JPanel:JComponent, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _controller - controller (controller.v)]", 8, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _controller - controller (controller.v)]", 8, false, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _DM - DM (DM.v)]", 21, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _IM - IM (IM.v)]", 20, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _DM - DM (DM.v)]", 21, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _IM - IM (IM.v)]", 20, false, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click
+selectCodeEditor("DM.v", 112, 144); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 348, 251); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 352, 258); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 385, 253); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 436, 256); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 436, 256, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DM.v", 437, 256); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 430, 229); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 430, 229, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DM.v", 430, 219); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 374, 162); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 374, 162, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DM.v", 374, 162); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 151, 226); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 148, 224, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DM.v", 148, 224); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 147, 243); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 147, 243, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DM.v", 147, 243); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 158, 244); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 158, 244, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DM.v", 152, 264); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 152, 264, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DM.v", 137, 273); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 137, 273, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DM.v", 166, 298); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 148, 278); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 148, 278, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DM.v", 143, 290); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 203, 122); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 156, 125); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 201, 123); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 131 seconds
+selectCodeEditor("DM.v", 204, 162); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 204, 162, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DM.v", 187, 155); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 187, 155, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DM.v", 196, 153); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 185, 160); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 15 seconds
+selectCodeEditor("DM.v", 188, 275); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 188, 275, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DM.v", 196, 275); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 184, 272); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 150, 266); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 47, 150); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 104, 334); // bj:J (JPanel:JComponent, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v)]", 1, true); // A:k (H:JPanel, cl:JFrame) - Node
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // F:b
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // F:b
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // F:b
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "DM.v", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // F:b
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // F:b
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // F:b
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // F:b
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "DM.v", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _controller - controller (controller.v)]", 8, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _controller - controller (controller.v)]", 8, false, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click
+selectCodeEditor("controller.v", 113, 178); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 113, 178, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("controller.v", 113, 178); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 161, 173); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 161, 173, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("controller.v", 161, 173); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 205, 177); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 205, 177, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("controller.v", 205, 177); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 245, 177); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 246, 178); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 50, 176); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 68 seconds
+selectCodeEditor("controller.v", 214, 158); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 138, 161); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 106, 156); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 174, 148); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 86, 188); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 49, 182); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 50, 188); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 44, 186); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 133, 178); // bj:J (JPanel:JComponent, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "controller.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "DM.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectCodeEditor("controller.v", 217, 167); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 236, 182); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 217, 161); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 238, 171); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 238, 162); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 264, 184); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 263, 166); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 285, 186); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 285, 168); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 294, 193); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 290, 182); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 286, 159); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 291, 182); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 291, 166); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 293, 183); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 290, 164); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 294, 186); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 294, 170); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 300, 194); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 297, 163); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 297, 184); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 294, 167); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 301, 186); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 301, 166); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 304, 187); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 298, 166); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 302, 186); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 299, 168); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 302, 182); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 298, 170); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 300, 189); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 298, 170); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 298, 186); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 285, 159); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 293, 178); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 293, 170); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 294, 181); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 292, 167); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 12 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "controller.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectCodeEditor("DM.v", 113, 159); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 119, 235); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 119, 235, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DM.v", 119, 235); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 158, 233); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 160, 233, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DM.v", 160, 233); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 138, 295); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 138, 295, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DM.v", 138, 295); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 112, 293); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 112, 293, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DM.v", 112, 293); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 129, 287); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 129, 287, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DM.v", 129, 287); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 148, 291); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 148, 291, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DM.v", 148, 291); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 236, 286); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 17 seconds
+selectCodeEditor("DM.v", 107, 234); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 107, 234, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DM.v", 115, 245); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 115, 245, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DM.v", 115, 245); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 115, 245); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 100, 249); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 110, 238); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 110, 238, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DM.v", 88, 259); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 88, 259, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DM.v", 104, 296); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 104, 296, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DM.v", 104, 296); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 127, 297); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 127, 297, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DM.v", 127, 297); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 190, 245); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 136, 246); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 119, 200); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 129, 162); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 91, 9); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 91, 9, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DM.v", 52, 93); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 52, 94, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("DM.v", 66, 178); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 85 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "DM.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectCodeEditor("controller.v", 124, 253); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 166, 254); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 166, 254, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("controller.v", 154, 254); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 154, 254, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("controller.v", 165, 256); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 165, 256, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("controller.v", 149, 254); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 149, 254, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("controller.v", 149, 254); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 160, 258); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 160, 258, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("controller.v", 160, 258); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 152, 258); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 152, 258, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("controller.v", 152, 258); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 169, 258); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 169, 258, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("controller.v", 138, 258); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 136, 258, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("controller.v", 136, 258); // bj:J (JPanel:JComponent, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _controller - controller (controller.v)]", 8, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, TopLayer (TopLayer.v), _controller - controller (controller.v)]", 8, false, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click
+// Elapsed time: 34 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "controller.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "DM.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "controller.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "DM.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "controller.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectCodeEditor("DM.v", 99, 238); // bj:J (JPanel:JComponent, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "DM.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectCodeEditor("controller.v", 170, 202); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 170, 202, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("controller.v", 170, 202); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 175, 202); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 178, 202, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("controller.v", 207, 194); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 14 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "controller.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "DM.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectCodeEditor("controller.v", 165, 197); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 146, 215); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 146, 215, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("controller.v", 176, 198); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 175, 198, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("controller.v", 150, 214); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 150, 214, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("controller.v", 178, 198); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 178, 198, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("controller.v", 180, 198); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 18 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "controller.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "DM.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "controller.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+// Elapsed time: 142 seconds
+selectCodeEditor("DM.v", 262, 207); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 154, 290); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 176, 246); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 161, 262); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 152, 304); // bj:J (JPanel:JComponent, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "DM.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectCodeEditor("controller.v", 82, 224); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 58, 202); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 33 seconds
+selectCodeEditor("controller.v", 105, 291); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 105, 291, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("controller.v", 105, 291); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 86, 293); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("controller.v", 86, 293, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("controller.v", 86, 293); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 25 seconds
+selectCodeEditor("controller.v", 214, 182); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 83 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "controller.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("DM.v", 230, 226); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("DM.v", 235, 300); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH

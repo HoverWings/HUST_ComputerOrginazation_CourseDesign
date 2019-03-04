@@ -1,0 +1,45 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/16044/Desktop/CurriculumDesign-PrinciplesOfComputerOrganization-master/single_circle/cpu.srcs/sources_1/new/SwitchFrequency.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SwitchFreq
+INFO: [VRFC 10-311] analyzing module divider_
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/16044/Desktop/CurriculumDesign-PrinciplesOfComputerOrganization-master/single_circle/cpu.srcs/sources_1/new/halt.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module halt
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/16044/Desktop/CurriculumDesign-PrinciplesOfComputerOrganization-master/single_circle/cpu.srcs/sources_1/new/RegFileWrite.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegFileWrite
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/16044/Desktop/CurriculumDesign-PrinciplesOfComputerOrganization-master/single_circle/cpu.srcs/sources_1/new/RegFiletoALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegFiletoALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/16044/Desktop/CurriculumDesign-PrinciplesOfComputerOrganization-master/single_circle/cpu.srcs/sources_1/new/RegFileRead.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegFileRead
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/16044/Desktop/CurriculumDesign-PrinciplesOfComputerOrganization-master/single_circle/cpu.srcs/sources_1/new/regfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regfile
+WARNING: [VRFC 10-2292] extra semicolon is not allowed here in this dialect. Use SystemVerilog mode [C:/Users/16044/Desktop/CurriculumDesign-PrinciplesOfComputerOrganization-master/single_circle/cpu.srcs/sources_1/new/regfile.v:10]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/16044/Desktop/CurriculumDesign-PrinciplesOfComputerOrganization-master/single_circle/cpu.srcs/sources_1/new/pc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pc
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/16044/Desktop/CurriculumDesign-PrinciplesOfComputerOrganization-master/single_circle/cpu.srcs/sources_1/new/npc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module npc
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/16044/Desktop/CurriculumDesign-PrinciplesOfComputerOrganization-master/single_circle/cpu.srcs/sources_1/new/insturctionDecoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instruDecoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/16044/Desktop/CurriculumDesign-PrinciplesOfComputerOrganization-master/single_circle/cpu.srcs/sources_1/new/IM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/16044/Desktop/CurriculumDesign-PrinciplesOfComputerOrganization-master/single_circle/cpu.srcs/sources_1/new/extend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module extend
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/16044/Desktop/CurriculumDesign-PrinciplesOfComputerOrganization-master/single_circle/cpu.srcs/sources_1/new/DM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/16044/Desktop/CurriculumDesign-PrinciplesOfComputerOrganization-master/single_circle/cpu.srcs/sources_1/new/divider.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module divider
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/16044/Desktop/CurriculumDesign-PrinciplesOfComputerOrganization-master/single_circle/cpu.srcs/sources_1/new/display.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module display
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/16044/Desktop/CurriculumDesign-PrinciplesOfComputerOrganization-master/single_circle/cpu.srcs/sources_1/new/decodShowInDisplay.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module display2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/16044/Desktop/CurriculumDesign-PrinciplesOfComputerOrganization-master/single_circle/cpu.srcs/sources_1/new/counter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module counter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/16044/Desktop/CurriculumDesign-PrinciplesOfComputerOrganization-master/single_circle/cpu.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/16044/Desktop/CurriculumDesign-PrinciplesOfComputerOrganization-master/single_circle/cpu.srcs/sources_1/new/controller.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module controller
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/16044/Desktop/CurriculumDesign-PrinciplesOfComputerOrganization-master/single_circle/cpu.srcs/sources_1/new/TopLayer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TopLayer
+WARNING: [VRFC 10-2292] extra semicolon is not allowed here in this dialect. Use SystemVerilog mode [C:/Users/16044/Desktop/CurriculumDesign-PrinciplesOfComputerOrganization-master/single_circle/cpu.srcs/sources_1/new/TopLayer.v:55]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/16044/Desktop/CurriculumDesign-PrinciplesOfComputerOrganization-master/single_circle/cpu.srcs/sim_1/new/simu_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module simu_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/16044/Desktop/CurriculumDesign-PrinciplesOfComputerOrganization-master/single_circle/cpu.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
