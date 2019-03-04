@@ -1,0 +1,129 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+-------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (lin64) Build 2405991 Thu Dec  6 23:36:41 MST 2018
+| Date         : Tue Mar  5 00:12:44 2019
+| Host         : wings running 64-bit Manjaro Linux
+| Command      : report_control_sets -verbose -file TopLayer_control_sets_placed.rpt
+| Design       : TopLayer
+| Device       : xc7a100t
+-------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    63 |
+| Unused register locations in slices containing registers |    33 |
++----------------------------------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|      1 |            1 |
+|      4 |            3 |
+|    16+ |           59 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |             135 |           80 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |             128 |           39 |
+| Yes          | No                    | No                     |            1024 |          619 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |             104 |           42 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++----------------+-----------------------------------+-----------------------------------------+------------------+----------------+
+|  Clock Signal  |           Enable Signal           |             Set/Reset Signal            | Slice Load Count | Bel Load Count |
++----------------+-----------------------------------+-----------------------------------------+------------------+----------------+
+|  clk_BUFG      |                                   |                                         |                1 |              1 |
+|  CLK_IBUF_BUFG |                                   |                                         |                2 |              4 |
+|  clk_dis_BUFG  | _display2/an[3]_i_2_n_1           | _display2/an[7]_i_1_n_1                 |                2 |              4 |
+|  clk_dis_BUFG  | _display2/an[3]_i_2_n_1           | _display2/an[3]_i_1_n_1                 |                2 |              4 |
+|  clk_BUFG      | _pc/bat                           | _counter/p_0_in                         |                4 |             16 |
+|  clk_BUFG      | _pc/branch                        | _counter/p_0_in                         |                4 |             16 |
+|  clk_BUFG      | _pc/or_jump_return1               | _counter/p_0_in                         |                4 |             16 |
+|  clk_BUFG      | _pc/total0                        | _counter/p_0_in                         |                4 |             16 |
+|  clk_BUFG      | _pc/memory[31][31]_i_6[0]         |                                         |               19 |             32 |
+|  clk_BUFG      | _pc/memory[31][31]_i_6_3[0]       |                                         |               19 |             32 |
+|  clk_BUFG      | _pc/memory[31][31]_i_6_2[0]       |                                         |               19 |             32 |
+|  clk_BUFG      | _pc/memory[31][31]_i_6_1[0]       |                                         |               22 |             32 |
+|  clk_BUFG      | _pc/memory[31][31]_i_6_0[0]       |                                         |               15 |             32 |
+|  clk_BUFG      | _pc/memory[31][31]_i_7_30[0]      |                                         |               16 |             32 |
+|  clk_BUFG      | _pc/memory[31][31]_i_4_5[0]       |                                         |               22 |             32 |
+|  clk_BUFG      | _pc/memory[31][31]_i_4_4[0]       |                                         |               19 |             32 |
+|  clk_BUFG      | _pc/memory[31][31]_i_4_3[0]       |                                         |               23 |             32 |
+|  clk_BUFG      | _pc/memory[31][31]_i_4_2[0]       |                                         |               21 |             32 |
+|  clk_BUFG      | _pc/memory[31][31]_i_6_4[0]       |                                         |               19 |             32 |
+|  clk_BUFG      | _pc/memory[31][31]_i_6_5[0]       |                                         |               21 |             32 |
+|  clk_BUFG      | _pc/memory[31][31]_i_4[0]         |                                         |               17 |             32 |
+|  clk_BUFG      | _pc/memory[31][31]_i_7_31[0]      |                                         |               20 |             32 |
+|  clk_BUFG      | _pc/memory[31][31]_i_7_32[0]      |                                         |               22 |             32 |
+|  clk_BUFG      | _pc/memory[31][31]_i_8[0]         |                                         |               23 |             32 |
+|  clk_BUFG      | _pc/memory[31][31]_i_8_0[0]       |                                         |               23 |             32 |
+|  clk_BUFG      | _pc/memory[31][31]_i_8_1[0]       |                                         |               17 |             32 |
+|  clk_BUFG      | _pc/memory[31][31]_i_8_2[0]       |                                         |               22 |             32 |
+|  clk_BUFG      | _pc/memory[31][31]_i_8_3[0]       |                                         |               24 |             32 |
+|  clk_BUFG      | _pc/memory[31][31]_i_8_4[0]       |                                         |               19 |             32 |
+|  clk_BUFG      | _pc/memory[31][31]_i_8_5[0]       |                                         |               18 |             32 |
+|  CLK_IBUF_BUFG |                                   | _swifreq/divider1/counter[0]_i_1__0_n_1 |                8 |             32 |
+|  CLK_IBUF_BUFG |                                   | _swifreq/divider2/clear                 |                8 |             32 |
+|  CLK_IBUF_BUFG |                                   | divider_dis/clear                       |                8 |             32 |
+|  clk_BUFG      | _pc/memory[31][31]_i_4_0[0]       |                                         |               19 |             32 |
+|  clk_BUFG      |                                   | _pc/memory[31][31]_i_5_0                |               15 |             32 |
+|  clk_BUFG      | _halt/E[0]                        | _counter/p_0_in                         |               22 |             32 |
+|  clk_BUFG      | _pc/E[0]                          |                                         |               12 |             32 |
+|  clk_BUFG      | _pc/memory[31][31]_i_3[0]         |                                         |               21 |             32 |
+|  clk_BUFG      | _pc/memory[31][31]_i_3_0[0]       |                                         |               18 |             32 |
+|  clk_BUFG      | _pc/memory[31][31]_i_3_2[0]       |                                         |               18 |             32 |
+|  clk_BUFG      | _pc/memory[31][31]_i_4_1[0]       |                                         |               17 |             32 |
+|  clk_BUFG      | _pc/memory[31][31]_i_3_5[0]       |                                         |               15 |             32 |
+|  clk_BUFG      | _pc/memory[31][31]_i_3_3[0]       |                                         |               18 |             32 |
+|  clk_BUFG      | _pc/memory[31][31]_i_3_1[0]       |                                         |               22 |             32 |
+|  clk_BUFG      | _pc/memory[31][31]_i_3_4[0]       |                                         |               19 |             32 |
+|  clk_dis_BUFG  |                                   |                                         |               34 |             49 |
+|  clk_BUFG      | _alu/Result1_reg[10]_2            |                                         |               16 |             64 |
+|  clk_BUFG      | _alu/Result1_reg[11]_0            |                                         |               16 |             64 |
+|  clk_BUFG      | _alu/Result1_reg[11]_3            |                                         |               16 |             64 |
+|  clk_BUFG      | _alu/Result1_reg[11]_1            |                                         |               16 |             64 |
+|  clk_BUFG      | _alu/Result1_reg[11]_2            |                                         |               16 |             64 |
+|  clk_BUFG      | _alu/Result1_reg[10]_0            |                                         |               16 |             64 |
+|  clk_BUFG      | _alu/Result1_reg[10]_1            |                                         |               16 |             64 |
+|  clk_BUFG      | _alu/memory_reg_0_127_16_16_i_4_1 |                                         |               16 |             64 |
+|  clk_BUFG      | _alu/Result1_reg[10]_3            |                                         |               16 |             64 |
+|  clk_BUFG      | _alu/Result1_reg[10]_4            |                                         |               16 |             64 |
+|  clk_BUFG      | _alu/Result1_reg[10]_5            |                                         |               16 |             64 |
+|  clk_BUFG      | _alu/memory_reg_0_127_0_0_i_8     |                                         |               16 |             64 |
+|  clk_BUFG      | _alu/memory_reg_0_127_0_0_i_8_0   |                                         |               16 |             64 |
+|  clk_BUFG      | _alu/memory_reg_0_127_0_0_i_8_1   |                                         |               16 |             64 |
+|  clk_BUFG      | _alu/memory_reg_0_127_16_16_i_4   |                                         |               16 |             64 |
+|  clk_BUFG      | _alu/memory_reg_0_127_16_16_i_4_0 |                                         |               16 |             64 |
+|  n_0_3377_BUFG |                                   |                                         |               43 |             81 |
++----------------+-----------------------------------+-----------------------------------------+------------------+----------------+
+
+
