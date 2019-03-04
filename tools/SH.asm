@@ -23,6 +23,7 @@ bne $t3,$zero,sh_store
 
 addi $t3,$zero,16
 addi $t1,$zero,0    # addr 
+
 sh_branch:
 lw $s1,($t1)     
 add $a0,$0,$s1          
