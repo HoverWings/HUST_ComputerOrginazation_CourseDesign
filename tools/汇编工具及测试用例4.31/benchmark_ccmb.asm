@@ -300,7 +300,7 @@ sort_next:
 # insert your ccmb benchmark program here!!!
 #############################################
 
-j benchmark_start       #delete this instruction for ccmb bencmark
+#j benchmark_start       #delete this instruction for ccmb bencmark
 #C1 instruction benchmark
 
 
@@ -318,8 +318,8 @@ j benchmark_start       #delete this instruction for ccmb bencmark
 
 
                  
- addi   $v0,$zero,10         # system call for exit
- syscall                  # we are out of here.   
+ #addi   $v0,$zero,10         # system call for exit
+ #syscall                  # we are out of here.   
  
  #MIPS处理器实现中请用停机指令实现syscall
 
