@@ -30,22 +30,22 @@ module counter( clk,rst,branch,bat,jump,return1,
         con_suc <= 0;
      end
      else begin
-     //ÎÞÌõ¼þ·ÖÖ§
+     //æ— æ¡ä»¶åˆ†æ”¯
         if(or_jump_return1)
             uncon <= uncon +1;
         else
             uncon <= uncon;
-     //ÓÐÌõ¼þ·ÖÖ§
+     //æœ‰æ¡ä»¶åˆ†æ”¯
         if(bat)
             con <= con+1;
         else
             con <= con;
-     //×ÜÖÜÆÚ
+     //æ€»å‘¨æœŸ
         if(halt | reg_halt)
             total <= total +1;
         else
             total <= total;
-     //ÓÐÌõ¼þ·ÖÖ§³É¹¦Ìø×ª
+     //æœ‰æ¡ä»¶åˆ†æ”¯æˆåŠŸè·³è½¬
         if(branch)
             con_suc <= con_suc +1;
         else

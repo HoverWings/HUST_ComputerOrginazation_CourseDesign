@@ -93,6 +93,7 @@ module controller(
     assign sllv =  (func==6'h04)& r;
 
     assign srlv =  (func==6'h06)& r;
+    
     assign MemWrite = sw|sh;
     assign jump = j|jal;
     assign bat = beq|bne|blez;
