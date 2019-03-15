@@ -7,7 +7,7 @@ module IM(pc,data);
     wire [9:0] pc1;
     
     initial begin
-        $readmemh("/home/hover/Desktop/Labs/HUST_ComputerOrginazation_CourseDesign/tools/benchmark_ccmb.hex",memory);
+        $readmemh("/home/hover/Desktop/Labs/HUST_ComputerOrginazation_CourseDesign/Verilog_Test/pipeline_ccmb.hex",memory);
     end
     
     assign pc1[9:0]=pc[11:2];

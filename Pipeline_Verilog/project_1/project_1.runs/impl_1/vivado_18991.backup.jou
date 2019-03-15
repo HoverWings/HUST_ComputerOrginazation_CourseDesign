@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Thu Mar 14 20:34:53 2019
+# Process ID: 18991
+# Current directory: /home/hover/Desktop/Labs/HUST_ComputerOrginazation_CourseDesign/redirect/project_1/project_1.runs/impl_1
+# Command line: vivado -log TopLayer.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source TopLayer.tcl -notrace
+# Log file: /home/hover/Desktop/Labs/HUST_ComputerOrginazation_CourseDesign/redirect/project_1/project_1.runs/impl_1/TopLayer.vdi
+# Journal file: /home/hover/Desktop/Labs/HUST_ComputerOrginazation_CourseDesign/redirect/project_1/project_1.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source TopLayer.tcl -notrace

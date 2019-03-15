@@ -1,0 +1,883 @@
+
+*** Running vivado
+    with args -log TopLayer.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source TopLayer.tcl
+
+
+****** Vivado v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source TopLayer.tcl -notrace
+Command: synth_design -top TopLayer -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 12868 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1384.797 ; gain = 27.691 ; free physical = 600 ; free virtual = 11398
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'TopLayer' [/home/hover/Desktop/Labs/HUST_ComputerOrginazation_CourseDesign/redirect/project_1/project_1.srcs/sources_1/new/TopLayer.v:2]
+INFO: [Synth 8-6157] synthesizing module 'buffer' [/home/hover/Desktop/Labs/HUST_ComputerOrginazation_CourseDesign/redirect/project_1/project_1.srcs/sources_1/new/buffer.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'buffer' (1#1) [/home/hover/Desktop/Labs/HUST_ComputerOrginazation_CourseDesign/redirect/project_1/project_1.srcs/sources_1/new/buffer.v:1]
+INFO: [Synth 8-6157] synthesizing module 'display2' [/home/hover/Desktop/Labs/HUST_ComputerOrginazation_CourseDesign/redirect/project_1/project_1.srcs/sources_1/new/decodShowInDisplay.v:1]
+INFO: [Synth 8-226] default block is never used [/home/hover/Desktop/Labs/HUST_ComputerOrginazation_CourseDesign/redirect/project_1/project_1.srcs/sources_1/new/decodShowInDisplay.v:39]
+INFO: [Synth 8-226] default block is never used [/home/hover/Desktop/Labs/HUST_ComputerOrginazation_CourseDesign/redirect/project_1/project_1.srcs/sources_1/new/decodShowInDisplay.v:169]
+WARNING: [Synth 8-6014] Unused sequential element temp2_reg was removed.  [/home/hover/Desktop/Labs/HUST_ComputerOrginazation_CourseDesign/redirect/project_1/project_1.srcs/sources_1/new/decodShowInDisplay.v:42]
+WARNING: [Synth 8-6014] Unused sequential element temp_reg was removed.  [/home/hover/Desktop/Labs/HUST_ComputerOrginazation_CourseDesign/redirect/project_1/project_1.srcs/sources_1/new/decodShowInDisplay.v:55]
+WARNING: [Synth 8-6014] Unused sequential element Show_Temp_reg was removed.  [/home/hover/Desktop/Labs/HUST_ComputerOrginazation_CourseDesign/redirect/project_1/project_1.srcs/sources_1/new/decodShowInDisplay.v:43]
+INFO: [Synth 8-6155] done synthesizing module 'display2' (2#1) [/home/hover/Desktop/Labs/HUST_ComputerOrginazation_CourseDesign/redirect/project_1/project_1.srcs/sources_1/new/decodShowInDisplay.v:1]
+INFO: [Synth 8-6157] synthesizing module 'DM' [/home/hover/Desktop/Labs/HUST_ComputerOrginazation_CourseDesign/redirect/project_1/project_1.srcs/sources_1/new/DM.v:41]
+INFO: [Synth 8-6155] done synthesizing module 'DM' (3#1) [/home/hover/Desktop/Labs/HUST_ComputerOrginazation_CourseDesign/redirect/project_1/project_1.srcs/sources_1/new/DM.v:41]
+INFO: [Synth 8-6157] synthesizing module 'MEM_WB' [/home/hover/Desktop/Labs/HUST_ComputerOrginazation_CourseDesign/redirect/project_1/project_1.srcs/sources_1/new/MEM-WB.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'MEM_WB' (4#1) [/home/hover/Desktop/Labs/HUST_ComputerOrginazation_CourseDesign/redirect/project_1/project_1.srcs/sources_1/new/MEM-WB.v:1]
+INFO: [Synth 8-6157] synthesizing module 'ctrl5' [/home/hover/Desktop/Labs/HUST_ComputerOrginazation_CourseDesign/redirect/project_1/project_1.srcs/sources_1/new/ctrl5.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'ctrl5' (5#1) [/home/hover/Desktop/Labs/HUST_ComputerOrginazation_CourseDesign/redirect/project_1/project_1.srcs/sources_1/new/ctrl5.v:1]
+INFO: [Synth 8-6157] synthesizing module 'ctrl4' [/home/hover/Desktop/Labs/HUST_ComputerOrginazation_CourseDesign/redirect/project_1/project_1.srcs/sources_1/new/ctrl4.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'ctrl4' (6#1) [/home/hover/Desktop/Labs/HUST_ComputerOrginazation_CourseDesign/redirect/project_1/project_1.srcs/sources_1/new/ctrl4.v:1]
+INFO: [Synth 8-6157] synthesizing module 'EX_MEM' [/home/hover/Desktop/Labs/HUST_ComputerOrginazation_CourseDesign/redirect/project_1/project_1.srcs/sources_1/new/EX-MEM.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'EX_MEM' (7#1) [/home/hover/Desktop/Labs/HUST_ComputerOrginazation_CourseDesign/redirect/project_1/project_1.srcs/sources_1/new/EX-MEM.v:1]
+INFO: [Synth 8-6157] synthesizing module 'syscall' [/home/hover/Desktop/Labs/HUST_ComputerOrginazation_CourseDesign/redirect/project_1/project_1.srcs/sources_1/new/syacall.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'syscall' (8#1) [/home/hover/Desktop/Labs/HUST_ComputerOrginazation_CourseDesign/redirect/project_1/project_1.srcs/sources_1/new/syacall.v:1]
+INFO: [Synth 8-6157] synthesizing module 'RegFiletoALU' [/home/hover/Desktop/Labs/HUST_ComputerOrginazation_CourseDesign/redirect/project_1/project_1.srcs/sources_1/new/RegFiletoALU.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'RegFiletoALU' (9#1) [/home/hover/Desktop/Labs/HUST_ComputerOrginazation_CourseDesign/redirect/project_1/project_1.srcs/sources_1/new/RegFiletoALU.v:1]
+INFO: [Synth 8-6157] synthesizing module 'ALU' [/home/hover/Desktop/Labs/HUST_ComputerOrginazation_CourseDesign/redirect/project_1/project_1.srcs/sources_1/new/alu.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'ALU' (10#1) [/home/hover/Desktop/Labs/HUST_ComputerOrginazation_CourseDesign/redirect/project_1/project_1.srcs/sources_1/new/alu.v:1]
+WARNING: [Synth 8-350] instance '_alu' of module 'ALU' requires 8 connections, but only 5 given [/home/hover/Desktop/Labs/HUST_ComputerOrginazation_CourseDesign/redirect/project_1/project_1.srcs/sources_1/new/TopLayer.v:98]
+INFO: [Synth 8-6157] synthesizing module 'branch_halt' [/home/hover/Desktop/Labs/HUST_ComputerOrginazation_CourseDesign/redirect/project_1/project_1.srcs/sources_1/new/branch_halt.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'branch_halt' (11#1) [/home/hover/Desktop/Labs/HUST_ComputerOrginazation_CourseDesign/redirect/project_1/project_1.srcs/sources_1/new/branch_halt.v:1]
+INFO: [Synth 8-6157] synthesizing module 'redirect' [/home/hover/Desktop/Labs/HUST_ComputerOrginazation_CourseDesign/redirect/project_1/project_1.srcs/sources_1/new/redirect.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'redirect' (12#1) [/home/hover/Desktop/Labs/HUST_ComputerOrginazation_CourseDesign/redirect/project_1/project_1.srcs/sources_1/new/redirect.v:1]
+INFO: [Synth 8-6157] synthesizing module 'ctrl3' [/home/hover/Desktop/Labs/HUST_ComputerOrginazation_CourseDesign/redirect/project_1/project_1.srcs/sources_1/new/ctrl3.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'ctrl3' (13#1) [/home/hover/Desktop/Labs/HUST_ComputerOrginazation_CourseDesign/redirect/project_1/project_1.srcs/sources_1/new/ctrl3.v:1]
+INFO: [Synth 8-6157] synthesizing module 'halt' [/home/hover/Desktop/Labs/HUST_ComputerOrginazation_CourseDesign/redirect/project_1/project_1.srcs/sources_1/new/halt.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'halt' (14#1) [/home/hover/Desktop/Labs/HUST_ComputerOrginazation_CourseDesign/redirect/project_1/project_1.srcs/sources_1/new/halt.v:1]
+INFO: [Synth 8-6157] synthesizing module 'pc' [/home/hover/Desktop/Labs/HUST_ComputerOrginazation_CourseDesign/redirect/project_1/project_1.srcs/sources_1/new/pc.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'pc' (15#1) [/home/hover/Desktop/Labs/HUST_ComputerOrginazation_CourseDesign/redirect/project_1/project_1.srcs/sources_1/new/pc.v:1]
+INFO: [Synth 8-6157] synthesizing module 'npc' [/home/hover/Desktop/Labs/HUST_ComputerOrginazation_CourseDesign/redirect/project_1/project_1.srcs/sources_1/new/npc.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'npc' (16#1) [/home/hover/Desktop/Labs/HUST_ComputerOrginazation_CourseDesign/redirect/project_1/project_1.srcs/sources_1/new/npc.v:1]
+INFO: [Synth 8-6157] synthesizing module 'IM' [/home/hover/Desktop/Labs/HUST_ComputerOrginazation_CourseDesign/redirect/project_1/project_1.srcs/sources_1/new/IM.v:1]
+INFO: [Synth 8-3876] $readmem data file '/home/hover/Desktop/Labs/HUST_ComputerOrginazation_CourseDesign/Verilog_Test/ccmb_.hex' is read successfully [/home/hover/Desktop/Labs/HUST_ComputerOrginazation_CourseDesign/redirect/project_1/project_1.srcs/sources_1/new/IM.v:7]
+INFO: [Synth 8-6155] done synthesizing module 'IM' (17#1) [/home/hover/Desktop/Labs/HUST_ComputerOrginazation_CourseDesign/redirect/project_1/project_1.srcs/sources_1/new/IM.v:1]
+INFO: [Synth 8-6157] synthesizing module 'counter' [/home/hover/Desktop/Labs/HUST_ComputerOrginazation_CourseDesign/redirect/project_1/project_1.srcs/sources_1/new/counter.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'counter' (18#1) [/home/hover/Desktop/Labs/HUST_ComputerOrginazation_CourseDesign/redirect/project_1/project_1.srcs/sources_1/new/counter.v:1]
+INFO: [Synth 8-6157] synthesizing module 'IF_ID' [/home/hover/Desktop/Labs/HUST_ComputerOrginazation_CourseDesign/redirect/project_1/project_1.srcs/sources_1/new/IF-ID.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'IF_ID' (19#1) [/home/hover/Desktop/Labs/HUST_ComputerOrginazation_CourseDesign/redirect/project_1/project_1.srcs/sources_1/new/IF-ID.v:1]
+INFO: [Synth 8-6157] synthesizing module 'regfile' [/home/hover/Desktop/Labs/HUST_ComputerOrginazation_CourseDesign/redirect/project_1/project_1.srcs/sources_1/new/regfile.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'regfile' (20#1) [/home/hover/Desktop/Labs/HUST_ComputerOrginazation_CourseDesign/redirect/project_1/project_1.srcs/sources_1/new/regfile.v:1]
+INFO: [Synth 8-6157] synthesizing module 'IR_Extern' [/home/hover/Desktop/Labs/HUST_ComputerOrginazation_CourseDesign/redirect/project_1/project_1.srcs/sources_1/new/IR_Extern.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'IR_Extern' (21#1) [/home/hover/Desktop/Labs/HUST_ComputerOrginazation_CourseDesign/redirect/project_1/project_1.srcs/sources_1/new/IR_Extern.v:1]
+INFO: [Synth 8-6157] synthesizing module 'ID_EX' [/home/hover/Desktop/Labs/HUST_ComputerOrginazation_CourseDesign/redirect/project_1/project_1.srcs/sources_1/new/ID-EX.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'ID_EX' (22#1) [/home/hover/Desktop/Labs/HUST_ComputerOrginazation_CourseDesign/redirect/project_1/project_1.srcs/sources_1/new/ID-EX.v:1]
+INFO: [Synth 8-6157] synthesizing module 'control' [/home/hover/Desktop/Labs/HUST_ComputerOrginazation_CourseDesign/redirect/project_1/project_1.srcs/sources_1/new/controll.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'control' (23#1) [/home/hover/Desktop/Labs/HUST_ComputerOrginazation_CourseDesign/redirect/project_1/project_1.srcs/sources_1/new/controll.v:1]
+INFO: [Synth 8-6157] synthesizing module 'ctrl2' [/home/hover/Desktop/Labs/HUST_ComputerOrginazation_CourseDesign/redirect/project_1/project_1.srcs/sources_1/new/ctrl2.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'ctrl2' (24#1) [/home/hover/Desktop/Labs/HUST_ComputerOrginazation_CourseDesign/redirect/project_1/project_1.srcs/sources_1/new/ctrl2.v:1]
+INFO: [Synth 8-6157] synthesizing module 'RegFileRead' [/home/hover/Desktop/Labs/HUST_ComputerOrginazation_CourseDesign/redirect/project_1/project_1.srcs/sources_1/new/RegFileRead.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'RegFileRead' (25#1) [/home/hover/Desktop/Labs/HUST_ComputerOrginazation_CourseDesign/redirect/project_1/project_1.srcs/sources_1/new/RegFileRead.v:1]
+INFO: [Synth 8-6157] synthesizing module 'RegFileWrite' [/home/hover/Desktop/Labs/HUST_ComputerOrginazation_CourseDesign/redirect/project_1/project_1.srcs/sources_1/new/RegFileWrite.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'RegFileWrite' (26#1) [/home/hover/Desktop/Labs/HUST_ComputerOrginazation_CourseDesign/redirect/project_1/project_1.srcs/sources_1/new/RegFileWrite.v:1]
+INFO: [Synth 8-6157] synthesizing module 'loaduse' [/home/hover/Desktop/Labs/HUST_ComputerOrginazation_CourseDesign/redirect/project_1/project_1.srcs/sources_1/new/loaduse.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'loaduse' (27#1) [/home/hover/Desktop/Labs/HUST_ComputerOrginazation_CourseDesign/redirect/project_1/project_1.srcs/sources_1/new/loaduse.v:1]
+INFO: [Synth 8-6157] synthesizing module 'divider' [/home/hover/Desktop/Labs/HUST_ComputerOrginazation_CourseDesign/redirect/project_1/project_1.srcs/sources_1/new/divider.v:1]
+	Parameter N bound to: 100000 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'divider' (28#1) [/home/hover/Desktop/Labs/HUST_ComputerOrginazation_CourseDesign/redirect/project_1/project_1.srcs/sources_1/new/divider.v:1]
+INFO: [Synth 8-6157] synthesizing module 'SwitchFreq' [/home/hover/Desktop/Labs/HUST_ComputerOrginazation_CourseDesign/redirect/project_1/project_1.srcs/sources_1/new/SwitchFrequency.v:1]
+INFO: [Synth 8-6157] synthesizing module 'divider__parameterized0' [/home/hover/Desktop/Labs/HUST_ComputerOrginazation_CourseDesign/redirect/project_1/project_1.srcs/sources_1/new/divider.v:1]
+	Parameter N bound to: 100000000 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'divider__parameterized0' (28#1) [/home/hover/Desktop/Labs/HUST_ComputerOrginazation_CourseDesign/redirect/project_1/project_1.srcs/sources_1/new/divider.v:1]
+INFO: [Synth 8-6157] synthesizing module 'divider__parameterized1' [/home/hover/Desktop/Labs/HUST_ComputerOrginazation_CourseDesign/redirect/project_1/project_1.srcs/sources_1/new/divider.v:1]
+	Parameter N bound to: 10000000 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'divider__parameterized1' (28#1) [/home/hover/Desktop/Labs/HUST_ComputerOrginazation_CourseDesign/redirect/project_1/project_1.srcs/sources_1/new/divider.v:1]
+INFO: [Synth 8-6157] synthesizing module 'divider__parameterized2' [/home/hover/Desktop/Labs/HUST_ComputerOrginazation_CourseDesign/redirect/project_1/project_1.srcs/sources_1/new/divider.v:1]
+	Parameter N bound to: 1000000 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'divider__parameterized2' (28#1) [/home/hover/Desktop/Labs/HUST_ComputerOrginazation_CourseDesign/redirect/project_1/project_1.srcs/sources_1/new/divider.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'SwitchFreq' (29#1) [/home/hover/Desktop/Labs/HUST_ComputerOrginazation_CourseDesign/redirect/project_1/project_1.srcs/sources_1/new/SwitchFrequency.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'TopLayer' (30#1) [/home/hover/Desktop/Labs/HUST_ComputerOrginazation_CourseDesign/redirect/project_1/project_1.srcs/sources_1/new/TopLayer.v:2]
+WARNING: [Synth 8-3331] design IR_Extern has unconnected port ra[31]
+WARNING: [Synth 8-3331] design IR_Extern has unconnected port ra[30]
+WARNING: [Synth 8-3331] design IR_Extern has unconnected port ra[29]
+WARNING: [Synth 8-3331] design IR_Extern has unconnected port ra[28]
+WARNING: [Synth 8-3331] design IR_Extern has unconnected port ra[27]
+WARNING: [Synth 8-3331] design IR_Extern has unconnected port ra[26]
+WARNING: [Synth 8-3331] design IR_Extern has unconnected port ra[25]
+WARNING: [Synth 8-3331] design IR_Extern has unconnected port ra[24]
+WARNING: [Synth 8-3331] design IR_Extern has unconnected port ra[23]
+WARNING: [Synth 8-3331] design IR_Extern has unconnected port ra[22]
+WARNING: [Synth 8-3331] design IR_Extern has unconnected port ra[21]
+WARNING: [Synth 8-3331] design IR_Extern has unconnected port ra[20]
+WARNING: [Synth 8-3331] design IR_Extern has unconnected port ra[19]
+WARNING: [Synth 8-3331] design IR_Extern has unconnected port ra[18]
+WARNING: [Synth 8-3331] design IR_Extern has unconnected port ra[17]
+WARNING: [Synth 8-3331] design IR_Extern has unconnected port ra[16]
+WARNING: [Synth 8-3331] design IR_Extern has unconnected port ra[15]
+WARNING: [Synth 8-3331] design IR_Extern has unconnected port ra[14]
+WARNING: [Synth 8-3331] design IR_Extern has unconnected port ra[13]
+WARNING: [Synth 8-3331] design IR_Extern has unconnected port ra[12]
+WARNING: [Synth 8-3331] design IR_Extern has unconnected port ra[11]
+WARNING: [Synth 8-3331] design IR_Extern has unconnected port ra[10]
+WARNING: [Synth 8-3331] design IR_Extern has unconnected port ra[9]
+WARNING: [Synth 8-3331] design IR_Extern has unconnected port ra[8]
+WARNING: [Synth 8-3331] design IR_Extern has unconnected port ra[7]
+WARNING: [Synth 8-3331] design IR_Extern has unconnected port ra[6]
+WARNING: [Synth 8-3331] design IR_Extern has unconnected port ra[5]
+WARNING: [Synth 8-3331] design IM has unconnected port pc[31]
+WARNING: [Synth 8-3331] design IM has unconnected port pc[30]
+WARNING: [Synth 8-3331] design IM has unconnected port pc[29]
+WARNING: [Synth 8-3331] design IM has unconnected port pc[28]
+WARNING: [Synth 8-3331] design IM has unconnected port pc[27]
+WARNING: [Synth 8-3331] design IM has unconnected port pc[26]
+WARNING: [Synth 8-3331] design IM has unconnected port pc[25]
+WARNING: [Synth 8-3331] design IM has unconnected port pc[24]
+WARNING: [Synth 8-3331] design IM has unconnected port pc[23]
+WARNING: [Synth 8-3331] design IM has unconnected port pc[22]
+WARNING: [Synth 8-3331] design IM has unconnected port pc[21]
+WARNING: [Synth 8-3331] design IM has unconnected port pc[20]
+WARNING: [Synth 8-3331] design IM has unconnected port pc[19]
+WARNING: [Synth 8-3331] design IM has unconnected port pc[18]
+WARNING: [Synth 8-3331] design IM has unconnected port pc[17]
+WARNING: [Synth 8-3331] design IM has unconnected port pc[16]
+WARNING: [Synth 8-3331] design IM has unconnected port pc[15]
+WARNING: [Synth 8-3331] design IM has unconnected port pc[14]
+WARNING: [Synth 8-3331] design IM has unconnected port pc[13]
+WARNING: [Synth 8-3331] design IM has unconnected port pc[12]
+WARNING: [Synth 8-3331] design IM has unconnected port pc[1]
+WARNING: [Synth 8-3331] design IM has unconnected port pc[0]
+WARNING: [Synth 8-3331] design ctrl3 has unconnected port ctrl3[16]
+WARNING: [Synth 8-3331] design ctrl3 has unconnected port ctrl3[15]
+WARNING: [Synth 8-3331] design ctrl3 has unconnected port ctrl3[14]
+WARNING: [Synth 8-3331] design ctrl3 has unconnected port ctrl3[13]
+WARNING: [Synth 8-3331] design ctrl3 has unconnected port ctrl3[9]
+WARNING: [Synth 8-3331] design ctrl3 has unconnected port ctrl3[8]
+WARNING: [Synth 8-3331] design ctrl3 has unconnected port ctrl3[6]
+WARNING: [Synth 8-3331] design ctrl3 has unconnected port ctrl3[1]
+WARNING: [Synth 8-3331] design branch_halt has unconnected port syscall
+WARNING: [Synth 8-3331] design ctrl4 has unconnected port ctrl4[21]
+WARNING: [Synth 8-3331] design ctrl4 has unconnected port ctrl4[20]
+WARNING: [Synth 8-3331] design ctrl4 has unconnected port ctrl4[19]
+WARNING: [Synth 8-3331] design ctrl4 has unconnected port ctrl4[18]
+WARNING: [Synth 8-3331] design ctrl4 has unconnected port ctrl4[17]
+WARNING: [Synth 8-3331] design ctrl4 has unconnected port ctrl4[12]
+WARNING: [Synth 8-3331] design ctrl4 has unconnected port ctrl4[11]
+WARNING: [Synth 8-3331] design ctrl4 has unconnected port ctrl4[10]
+WARNING: [Synth 8-3331] design ctrl4 has unconnected port ctrl4[6]
+WARNING: [Synth 8-3331] design ctrl4 has unconnected port ctrl4[5]
+WARNING: [Synth 8-3331] design ctrl4 has unconnected port ctrl4[4]
+WARNING: [Synth 8-3331] design ctrl4 has unconnected port ctrl4[3]
+WARNING: [Synth 8-3331] design ctrl4 has unconnected port ctrl4[2]
+WARNING: [Synth 8-3331] design ctrl4 has unconnected port ctrl4[0]
+WARNING: [Synth 8-3331] design ctrl5 has unconnected port ctrl5[20]
+WARNING: [Synth 8-3331] design ctrl5 has unconnected port ctrl5[19]
+WARNING: [Synth 8-3331] design ctrl5 has unconnected port ctrl5[18]
+WARNING: [Synth 8-3331] design ctrl5 has unconnected port ctrl5[17]
+WARNING: [Synth 8-3331] design ctrl5 has unconnected port ctrl5[16]
+WARNING: [Synth 8-3331] design ctrl5 has unconnected port ctrl5[15]
+WARNING: [Synth 8-3331] design ctrl5 has unconnected port ctrl5[14]
+WARNING: [Synth 8-3331] design ctrl5 has unconnected port ctrl5[13]
+WARNING: [Synth 8-3331] design ctrl5 has unconnected port ctrl5[11]
+WARNING: [Synth 8-3331] design ctrl5 has unconnected port ctrl5[10]
+WARNING: [Synth 8-3331] design ctrl5 has unconnected port ctrl5[9]
+WARNING: [Synth 8-3331] design ctrl5 has unconnected port ctrl5[6]
+WARNING: [Synth 8-3331] design ctrl5 has unconnected port ctrl5[5]
+WARNING: [Synth 8-3331] design ctrl5 has unconnected port ctrl5[4]
+WARNING: [Synth 8-3331] design ctrl5 has unconnected port ctrl5[3]
+WARNING: [Synth 8-3331] design ctrl5 has unconnected port ctrl5[2]
+WARNING: [Synth 8-3331] design ctrl5 has unconnected port ctrl5[0]
+WARNING: [Synth 8-3331] design DM has unconnected port addr[31]
+WARNING: [Synth 8-3331] design DM has unconnected port addr[30]
+WARNING: [Synth 8-3331] design DM has unconnected port addr[29]
+WARNING: [Synth 8-3331] design DM has unconnected port addr[28]
+WARNING: [Synth 8-3331] design DM has unconnected port addr[27]
+WARNING: [Synth 8-3331] design DM has unconnected port addr[26]
+WARNING: [Synth 8-3331] design DM has unconnected port addr[25]
+WARNING: [Synth 8-3331] design DM has unconnected port addr[24]
+WARNING: [Synth 8-3331] design DM has unconnected port addr[23]
+WARNING: [Synth 8-3331] design DM has unconnected port addr[22]
+WARNING: [Synth 8-3331] design DM has unconnected port addr[21]
+INFO: [Common 17-14] Message 'Synth 8-3331' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1434.547 ; gain = 77.441 ; free physical = 601 ; free virtual = 11401
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1434.547 ; gain = 77.441 ; free physical = 604 ; free virtual = 11405
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1434.547 ; gain = 77.441 ; free physical = 604 ; free virtual = 11405
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/hover/Desktop/Labs/HUST_ComputerOrginazation_CourseDesign/redirect/project_1/project_1.srcs/constrs_1/new/constraint.xdc]
+Finished Parsing XDC File [/home/hover/Desktop/Labs/HUST_ComputerOrginazation_CourseDesign/redirect/project_1/project_1.srcs/constrs_1/new/constraint.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/hover/Desktop/Labs/HUST_ComputerOrginazation_CourseDesign/redirect/project_1/project_1.srcs/constrs_1/new/constraint.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/TopLayer_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/TopLayer_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1813.406 ; gain = 0.000 ; free physical = 315 ; free virtual = 11145
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1813.406 ; gain = 0.000 ; free physical = 317 ; free virtual = 11146
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1813.406 ; gain = 0.000 ; free physical = 317 ; free virtual = 11146
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1813.406 ; gain = 0.000 ; free physical = 317 ; free virtual = 11146
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 1813.406 ; gain = 456.301 ; free physical = 396 ; free virtual = 11225
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 1813.406 ; gain = 456.301 ; free physical = 396 ; free virtual = 11225
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 1813.406 ; gain = 456.301 ; free physical = 398 ; free virtual = 11228
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 4 [/home/hover/Desktop/Labs/HUST_ComputerOrginazation_CourseDesign/redirect/project_1/project_1.srcs/sources_1/new/alu.v:42]
+INFO: [Synth 8-5546] ROM "memory" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[31]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[31]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[30]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[30]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[29]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[29]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[28]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[28]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[27]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[27]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[26]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[26]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[25]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[25]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[24]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[24]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[23]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[23]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[22]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[22]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[21]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[21]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[20]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[20]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[19]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[19]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[18]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[18]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[17]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[17]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[16]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[16]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[15]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[15]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[14]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[14]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[13]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[13]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[12]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[12]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[11]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[11]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[10]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[10]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[9]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[9]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[8]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[8]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[7]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[7]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[6]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[6]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[5]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[5]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[4]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[4]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[3]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[3]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[2]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[2]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[1]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "memory_reg[1]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5545] ROM "counter" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "clk_N" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "counter" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "clk_N" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "counter" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "clk_N" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "counter" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "clk_N" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+WARNING: [Synth 8-327] inferring latch for variable 'Result1_reg' [/home/hover/Desktop/Labs/HUST_ComputerOrginazation_CourseDesign/redirect/project_1/project_1.srcs/sources_1/new/alu.v:26]
+WARNING: [Synth 8-327] inferring latch for variable 'Result2_reg' [/home/hover/Desktop/Labs/HUST_ComputerOrginazation_CourseDesign/redirect/project_1/project_1.srcs/sources_1/new/alu.v:44]
+WARNING: [Synth 8-327] inferring latch for variable 'OF_reg' [/home/hover/Desktop/Labs/HUST_ComputerOrginazation_CourseDesign/redirect/project_1/project_1.srcs/sources_1/new/alu.v:52]
+WARNING: [Synth 8-327] inferring latch for variable 'UOF_reg' [/home/hover/Desktop/Labs/HUST_ComputerOrginazation_CourseDesign/redirect/project_1/project_1.srcs/sources_1/new/alu.v:53]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 1813.406 ; gain = 456.301 ; free physical = 377 ; free virtual = 11207
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     64 Bit       Adders := 1     
+	   2 Input     32 Bit       Adders := 7     
+	   3 Input     32 Bit       Adders := 1     
+	   2 Input      3 Bit       Adders := 1     
++---XORs : 
+	   2 Input     32 Bit         XORs := 2     
+	   2 Input      1 Bit         XORs := 4     
++---Registers : 
+	               32 Bit    Registers := 52    
+	               26 Bit    Registers := 1     
+	               22 Bit    Registers := 2     
+	               21 Bit    Registers := 1     
+	                8 Bit    Registers := 2     
+	                5 Bit    Registers := 5     
+	                4 Bit    Registers := 1     
+	                3 Bit    Registers := 2     
+	                1 Bit    Registers := 7     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 59    
+	  14 Input     32 Bit        Muxes := 1     
+	 286 Input     32 Bit        Muxes := 1     
+	   8 Input      8 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 4     
+	   2 Input      5 Bit        Muxes := 4     
+	   2 Input      4 Bit        Muxes := 3     
+	  12 Input      4 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
+	  14 Input      1 Bit        Muxes := 5     
+	   2 Input      1 Bit        Muxes := 35    
+	   3 Input      1 Bit        Muxes := 31    
+	   5 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module display2 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	                8 Bit    Registers := 2     
+	                4 Bit    Registers := 1     
+	                3 Bit    Registers := 2     
++---Muxes : 
+	   8 Input      8 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 2     
+	   2 Input      3 Bit        Muxes := 1     
+Module DM 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 5     
+	   2 Input      8 Bit        Muxes := 4     
+Module MEM_WB 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 3     
+	               22 Bit    Registers := 1     
+	                5 Bit    Registers := 1     
+Module EX_MEM 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 3     
+	               22 Bit    Registers := 1     
+	                5 Bit    Registers := 1     
+Module syscall 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+Module RegFiletoALU 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 7     
+Module ALU 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     64 Bit       Adders := 1     
+	   2 Input     32 Bit       Adders := 1     
+	   3 Input     32 Bit       Adders := 1     
++---XORs : 
+	   2 Input     32 Bit         XORs := 2     
+	   2 Input      1 Bit         XORs := 4     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 32    
+	  14 Input     32 Bit        Muxes := 1     
+	  14 Input      1 Bit        Muxes := 5     
+Module pc 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+Module npc 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 3     
+Module IM 
+Detailed RTL Component Info : 
++---Muxes : 
+	 286 Input     32 Bit        Muxes := 1     
+Module counter 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module IF_ID 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 2     
+Module regfile 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 32    
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 3     
+	   2 Input      1 Bit        Muxes := 31    
+	   3 Input      1 Bit        Muxes := 31    
+Module IR_Extern 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 3     
+	   2 Input      5 Bit        Muxes := 1     
+Module ID_EX 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 5     
+	               26 Bit    Registers := 1     
+	               21 Bit    Registers := 1     
+	                5 Bit    Registers := 3     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      5 Bit        Muxes := 1     
+Module control 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 1     
+	  12 Input      4 Bit        Muxes := 1     
+Module RegFileRead 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      5 Bit        Muxes := 2     
+Module RegFileWrite 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+Module divider 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module divider__parameterized0 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module divider__parameterized1 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module divider__parameterized2 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module SwitchFreq 
+Detailed RTL Component Info : 
++---Muxes : 
+	   5 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-5545] ROM "divider1/counter" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "divider1/clk_N" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "divider2/counter" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "divider2/clk_N" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "divider3/counter" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "divider3/clk_N" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+DSP Report: Generating DSP Result10, operation Mode is: A*B.
+DSP Report: operator Result10 is absorbed into DSP Result10.
+DSP Report: operator Result10 is absorbed into DSP Result10.
+DSP Report: Generating DSP Result10, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator Result10 is absorbed into DSP Result10.
+DSP Report: operator Result10 is absorbed into DSP Result10.
+DSP Report: Generating DSP Result10, operation Mode is: A*B.
+DSP Report: operator Result10 is absorbed into DSP Result10.
+DSP Report: operator Result10 is absorbed into DSP Result10.
+DSP Report: Generating DSP Result10, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator Result10 is absorbed into DSP Result10.
+DSP Report: operator Result10 is absorbed into DSP Result10.
+INFO: [Synth 8-5545] ROM "divider_dis/counter" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "divider_dis/clk_N" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "_swifreq/divider3/counter" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "_swifreq/divider3/clk_N" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "_swifreq/divider2/counter" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "_swifreq/divider2/clk_N" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "_swifreq/divider1/counter" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "_swifreq/divider1/clk_N" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-3886] merging instance '_ID_EX/ins26_out_reg[10]' (FDRE) to '_ID_EX/ins16_32_out_reg[10]'
+INFO: [Synth 8-3886] merging instance '_ID_EX/ins26_out_reg[11]' (FDRE) to '_ID_EX/ins16_32_out_reg[11]'
+INFO: [Synth 8-3886] merging instance '_ID_EX/ins26_out_reg[12]' (FDRE) to '_ID_EX/ins16_32_out_reg[12]'
+INFO: [Synth 8-3886] merging instance '_ID_EX/ins26_out_reg[13]' (FDRE) to '_ID_EX/ins16_32_out_reg[13]'
+INFO: [Synth 8-3886] merging instance '_ID_EX/ins26_out_reg[14]' (FDRE) to '_ID_EX/ins16_32_out_reg[14]'
+INFO: [Synth 8-3886] merging instance '_ID_EX/ins26_out_reg[15]' (FDRE) to '_ID_EX/ins16_32_out_reg[15]'
+INFO: [Synth 8-3886] merging instance '_ID_EX/ins16_32_out_reg[16]' (FDRE) to '_ID_EX/ins16_32_out_reg[29]'
+INFO: [Synth 8-3886] merging instance '_ID_EX/ins16_32_out_reg[17]' (FDRE) to '_ID_EX/ins16_32_out_reg[29]'
+INFO: [Synth 8-3886] merging instance '_ID_EX/ins16_32_out_reg[18]' (FDRE) to '_ID_EX/ins16_32_out_reg[29]'
+INFO: [Synth 8-3886] merging instance '_ID_EX/ins16_32_out_reg[19]' (FDRE) to '_ID_EX/ins16_32_out_reg[29]'
+INFO: [Synth 8-3886] merging instance '_ID_EX/ins16_32_out_reg[20]' (FDRE) to '_ID_EX/ins16_32_out_reg[29]'
+INFO: [Synth 8-3886] merging instance '_ID_EX/ins16_32_out_reg[21]' (FDRE) to '_ID_EX/ins16_32_out_reg[29]'
+INFO: [Synth 8-3886] merging instance '_ID_EX/ins16_32_out_reg[22]' (FDRE) to '_ID_EX/ins16_32_out_reg[29]'
+INFO: [Synth 8-3886] merging instance '_ID_EX/ins16_32_out_reg[23]' (FDRE) to '_ID_EX/ins16_32_out_reg[29]'
+INFO: [Synth 8-3886] merging instance '_ID_EX/ins16_32_out_reg[24]' (FDRE) to '_ID_EX/ins16_32_out_reg[29]'
+INFO: [Synth 8-3886] merging instance '_ID_EX/ins16_32_out_reg[25]' (FDRE) to '_ID_EX/ins16_32_out_reg[29]'
+INFO: [Synth 8-3886] merging instance '_ID_EX/ins16_32_out_reg[26]' (FDRE) to '_ID_EX/ins16_32_out_reg[29]'
+INFO: [Synth 8-3886] merging instance '_ID_EX/ins16_32_out_reg[27]' (FDRE) to '_ID_EX/ins16_32_out_reg[29]'
+INFO: [Synth 8-3886] merging instance '_ID_EX/ins16_32_out_reg[28]' (FDRE) to '_ID_EX/ins16_32_out_reg[29]'
+INFO: [Synth 8-3886] merging instance '_ID_EX/ctrl_out_reg[16]' (FDRE) to '_ID_EX/ctrl_out_reg[15]'
+INFO: [Synth 8-3886] merging instance '_ID_EX/ctrl_out_reg[13]' (FDRE) to '_ID_EX/ctrl_out_reg[14]'
+INFO: [Synth 8-3886] merging instance '_ex_mem/ctrl_out_reg[16]' (FDRE) to '_ex_mem/ctrl_out_reg[15]'
+INFO: [Synth 8-3886] merging instance '_ex_mem/ctrl_out_reg[13]' (FDRE) to '_ex_mem/ctrl_out_reg[14]'
+INFO: [Synth 8-3886] merging instance '_ID_EX/ins26_out_reg[0]' (FDRE) to '_ID_EX/ins16_32_out_reg[0]'
+INFO: [Synth 8-3886] merging instance '_ID_EX/ins26_out_reg[1]' (FDRE) to '_ID_EX/ins16_32_out_reg[1]'
+INFO: [Synth 8-3886] merging instance '_ID_EX/ins26_out_reg[2]' (FDRE) to '_ID_EX/ins16_32_out_reg[2]'
+INFO: [Synth 8-3886] merging instance '_ID_EX/ins26_out_reg[3]' (FDRE) to '_ID_EX/ins16_32_out_reg[3]'
+INFO: [Synth 8-3886] merging instance '_ID_EX/ins26_out_reg[4]' (FDRE) to '_ID_EX/ins16_32_out_reg[4]'
+INFO: [Synth 8-3886] merging instance '_ID_EX/ins26_out_reg[5]' (FDRE) to '_ID_EX/ins16_32_out_reg[5]'
+INFO: [Synth 8-3886] merging instance '_ID_EX/ins26_out_reg[6]' (FDRE) to '_ID_EX/ins16_32_out_reg[6]'
+INFO: [Synth 8-3886] merging instance '_ID_EX/ins26_out_reg[7]' (FDRE) to '_ID_EX/ins16_32_out_reg[7]'
+INFO: [Synth 8-3886] merging instance '_ID_EX/ins26_out_reg[8]' (FDRE) to '_ID_EX/ins16_32_out_reg[8]'
+INFO: [Synth 8-3886] merging instance '_ID_EX/ins26_out_reg[9]' (FDRE) to '_ID_EX/ins16_32_out_reg[9]'
+INFO: [Synth 8-3886] merging instance '_ID_EX/ins_out_reg[16]' (FDRE) to '_ID_EX/ins_out_reg[31]'
+INFO: [Synth 8-3886] merging instance '_ID_EX/ins_out_reg[17]' (FDRE) to '_ID_EX/ins_out_reg[31]'
+INFO: [Synth 8-3886] merging instance '_ID_EX/ins_out_reg[18]' (FDRE) to '_ID_EX/ins_out_reg[31]'
+INFO: [Synth 8-3886] merging instance '_ID_EX/ins_out_reg[19]' (FDRE) to '_ID_EX/ins_out_reg[31]'
+INFO: [Synth 8-3886] merging instance '_ID_EX/ins_out_reg[20]' (FDRE) to '_ID_EX/ins_out_reg[31]'
+INFO: [Synth 8-3886] merging instance '_ID_EX/ins_out_reg[21]' (FDRE) to '_ID_EX/ins_out_reg[31]'
+INFO: [Synth 8-3886] merging instance '_ID_EX/ins_out_reg[22]' (FDRE) to '_ID_EX/ins_out_reg[31]'
+INFO: [Synth 8-3886] merging instance '_ID_EX/ins_out_reg[23]' (FDRE) to '_ID_EX/ins_out_reg[31]'
+INFO: [Synth 8-3886] merging instance '_ID_EX/ins_out_reg[24]' (FDRE) to '_ID_EX/ins_out_reg[31]'
+INFO: [Synth 8-3886] merging instance '_ID_EX/ins_out_reg[25]' (FDRE) to '_ID_EX/ins_out_reg[31]'
+INFO: [Synth 8-3886] merging instance '_ID_EX/ins_out_reg[26]' (FDRE) to '_ID_EX/ins_out_reg[31]'
+INFO: [Synth 8-3886] merging instance '_ID_EX/ins_out_reg[27]' (FDRE) to '_ID_EX/ins_out_reg[31]'
+INFO: [Synth 8-3886] merging instance '_ID_EX/ins_out_reg[28]' (FDRE) to '_ID_EX/ins_out_reg[31]'
+INFO: [Synth 8-3886] merging instance '_ID_EX/ins_out_reg[29]' (FDRE) to '_ID_EX/ins_out_reg[31]'
+INFO: [Synth 8-3886] merging instance '_ID_EX/ins_out_reg[30]' (FDRE) to '_ID_EX/ins_out_reg[31]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\_IF_ID/instru_out_reg[30] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (_dis2/\seg_reg[7] )
+WARNING: [Synth 8-3332] Sequential element (Result2_reg[31]) is unused and will be removed from module ALU.
+WARNING: [Synth 8-3332] Sequential element (Result2_reg[30]) is unused and will be removed from module ALU.
+WARNING: [Synth 8-3332] Sequential element (Result2_reg[29]) is unused and will be removed from module ALU.
+WARNING: [Synth 8-3332] Sequential element (Result2_reg[28]) is unused and will be removed from module ALU.
+WARNING: [Synth 8-3332] Sequential element (Result2_reg[27]) is unused and will be removed from module ALU.
+WARNING: [Synth 8-3332] Sequential element (Result2_reg[26]) is unused and will be removed from module ALU.
+WARNING: [Synth 8-3332] Sequential element (Result2_reg[25]) is unused and will be removed from module ALU.
+WARNING: [Synth 8-3332] Sequential element (Result2_reg[24]) is unused and will be removed from module ALU.
+WARNING: [Synth 8-3332] Sequential element (Result2_reg[23]) is unused and will be removed from module ALU.
+WARNING: [Synth 8-3332] Sequential element (Result2_reg[22]) is unused and will be removed from module ALU.
+WARNING: [Synth 8-3332] Sequential element (Result2_reg[21]) is unused and will be removed from module ALU.
+WARNING: [Synth 8-3332] Sequential element (Result2_reg[20]) is unused and will be removed from module ALU.
+WARNING: [Synth 8-3332] Sequential element (Result2_reg[19]) is unused and will be removed from module ALU.
+WARNING: [Synth 8-3332] Sequential element (Result2_reg[18]) is unused and will be removed from module ALU.
+WARNING: [Synth 8-3332] Sequential element (Result2_reg[17]) is unused and will be removed from module ALU.
+WARNING: [Synth 8-3332] Sequential element (Result2_reg[16]) is unused and will be removed from module ALU.
+WARNING: [Synth 8-3332] Sequential element (Result2_reg[15]) is unused and will be removed from module ALU.
+WARNING: [Synth 8-3332] Sequential element (Result2_reg[14]) is unused and will be removed from module ALU.
+WARNING: [Synth 8-3332] Sequential element (Result2_reg[13]) is unused and will be removed from module ALU.
+WARNING: [Synth 8-3332] Sequential element (Result2_reg[12]) is unused and will be removed from module ALU.
+WARNING: [Synth 8-3332] Sequential element (Result2_reg[11]) is unused and will be removed from module ALU.
+WARNING: [Synth 8-3332] Sequential element (Result2_reg[10]) is unused and will be removed from module ALU.
+WARNING: [Synth 8-3332] Sequential element (Result2_reg[9]) is unused and will be removed from module ALU.
+WARNING: [Synth 8-3332] Sequential element (Result2_reg[8]) is unused and will be removed from module ALU.
+WARNING: [Synth 8-3332] Sequential element (Result2_reg[7]) is unused and will be removed from module ALU.
+WARNING: [Synth 8-3332] Sequential element (Result2_reg[6]) is unused and will be removed from module ALU.
+WARNING: [Synth 8-3332] Sequential element (Result2_reg[5]) is unused and will be removed from module ALU.
+WARNING: [Synth 8-3332] Sequential element (Result2_reg[4]) is unused and will be removed from module ALU.
+WARNING: [Synth 8-3332] Sequential element (Result2_reg[3]) is unused and will be removed from module ALU.
+WARNING: [Synth 8-3332] Sequential element (Result2_reg[2]) is unused and will be removed from module ALU.
+WARNING: [Synth 8-3332] Sequential element (Result2_reg[1]) is unused and will be removed from module ALU.
+WARNING: [Synth 8-3332] Sequential element (Result2_reg[0]) is unused and will be removed from module ALU.
+WARNING: [Synth 8-3332] Sequential element (OF_reg) is unused and will be removed from module ALU.
+WARNING: [Synth 8-3332] Sequential element (UOF_reg) is unused and will be removed from module ALU.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:09 ; elapsed = 00:01:14 . Memory (MB): peak = 2338.391 ; gain = 981.285 ; free physical = 775 ; free virtual = 11226
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Preliminary Mapping  Report (see note below)
++------------+------------+-----------+----------------------+-------------------+
+|Module Name | RTL Object | Inference | Size (Depth x Width) | Primitives        | 
++------------+------------+-----------+----------------------+-------------------+
+|_dm         | memory_reg | Implied   | 1 K x 32             | RAM128X1D x 256   | 
++------------+------------+-----------+----------------------+-------------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+
+DSP: Preliminary Mapping  Report (see note below)
++------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name | DSP Mapping    | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|ALU         | A*B            | 18     | 16     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ALU         | (PCIN>>17)+A*B | 16     | 16     | -      | -      | 30     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ALU         | A*B            | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ALU         | (PCIN>>17)+A*B | 18     | 16     | -      | -      | 47     | 0    | 0    | -    | -    | -     | 0    | 0    | 
++------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:17 ; elapsed = 00:01:22 . Memory (MB): peak = 2338.391 ; gain = 981.285 ; free physical = 620 ; free virtual = 11087
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:01:18 ; elapsed = 00:01:23 . Memory (MB): peak = 2338.391 ; gain = 981.285 ; free physical = 615 ; free virtual = 11083
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Final Mapping  Report
++------------+------------+-----------+----------------------+-------------------+
+|Module Name | RTL Object | Inference | Size (Depth x Width) | Primitives        | 
++------------+------------+-----------+----------------------+-------------------+
+|_dm         | memory_reg | Implied   | 1 K x 32             | RAM128X1D x 256   | 
++------------+------------+-----------+----------------------+-------------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:22 ; elapsed = 00:01:28 . Memory (MB): peak = 2338.391 ; gain = 981.285 ; free physical = 619 ; free virtual = 11086
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:23 ; elapsed = 00:01:29 . Memory (MB): peak = 2338.391 ; gain = 981.285 ; free physical = 618 ; free virtual = 11086
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:23 ; elapsed = 00:01:29 . Memory (MB): peak = 2338.391 ; gain = 981.285 ; free physical = 618 ; free virtual = 11086
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:24 ; elapsed = 00:01:29 . Memory (MB): peak = 2338.391 ; gain = 981.285 ; free physical = 618 ; free virtual = 11085
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:24 ; elapsed = 00:01:29 . Memory (MB): peak = 2338.391 ; gain = 981.285 ; free physical = 618 ; free virtual = 11085
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:24 ; elapsed = 00:01:29 . Memory (MB): peak = 2338.391 ; gain = 981.285 ; free physical = 618 ; free virtual = 11086
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:24 ; elapsed = 00:01:29 . Memory (MB): peak = 2338.391 ; gain = 981.285 ; free physical = 618 ; free virtual = 11086
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+----------+------+
+|      |Cell      |Count |
++------+----------+------+
+|1     |BUFG      |     4|
+|2     |CARRY4    |   384|
+|3     |DSP48E1   |     3|
+|4     |LUT1      |    76|
+|5     |LUT2      |   220|
+|6     |LUT3      |  1295|
+|7     |LUT4      |   273|
+|8     |LUT5      |   511|
+|9     |LUT6      |  1728|
+|10    |MUXF7     |   442|
+|11    |MUXF8     |    68|
+|12    |RAM128X1D |   256|
+|13    |FDRE      |  1837|
+|14    |LD        |    32|
+|15    |IBUF      |     9|
+|16    |OBUF      |    16|
++------+----------+------+
+
+Report Instance Areas: 
++------+--------------+------------------------+------+
+|      |Instance      |Module                  |Cells |
++------+--------------+------------------------+------+
+|1     |top           |                        |  7154|
+|2     |  _ID_EX      |ID_EX                   |   669|
+|3     |  _IF_ID      |IF_ID                   |   145|
+|4     |  _alu        |ALU                     |  1436|
+|5     |  _counter    |counter                 |   571|
+|6     |  _dis2       |display2                |   138|
+|7     |  _dm         |DM                      |   332|
+|8     |  _ex_mem     |EX_MEM                  |   683|
+|9     |  _mem_wb     |MEM_WB                  |   216|
+|10    |  _pc         |pc                      |   338|
+|11    |  _regfile    |regfile                 |  2304|
+|12    |  _regwrite   |RegFileWrite            |    32|
+|13    |  _swifreq    |SwitchFreq              |   157|
+|14    |    divider1  |divider__parameterized0 |    52|
+|15    |    divider2  |divider__parameterized1 |    52|
+|16    |    divider3  |divider__parameterized2 |    53|
+|17    |  _sys        |syscall                 |    52|
+|18    |  divider_dis |divider                 |    52|
++------+--------------+------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:24 ; elapsed = 00:01:29 . Memory (MB): peak = 2338.391 ; gain = 981.285 ; free physical = 618 ; free virtual = 11086
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 116 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:01:20 ; elapsed = 00:01:25 . Memory (MB): peak = 2338.391 ; gain = 602.426 ; free physical = 681 ; free virtual = 11148
+Synthesis Optimization Complete : Time (s): cpu = 00:01:24 ; elapsed = 00:01:29 . Memory (MB): peak = 2338.398 ; gain = 981.285 ; free physical = 680 ; free virtual = 11148
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 1185 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2370.406 ; gain = 0.000 ; free physical = 614 ; free virtual = 11083
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 288 instances were transformed.
+  LD => LDCE: 32 instances
+  RAM128X1D => RAM128X1D (RAMD64E, RAMD64E, MUXF7, MUXF7, RAMD64E, RAMD64E): 256 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+218 Infos, 142 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:27 ; elapsed = 00:01:31 . Memory (MB): peak = 2370.406 ; gain = 1013.609 ; free physical = 672 ; free virtual = 11141
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2370.406 ; gain = 0.000 ; free physical = 672 ; free virtual = 11141
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint '/home/hover/Desktop/Labs/HUST_ComputerOrginazation_CourseDesign/redirect/project_1/project_1.runs/synth_1/TopLayer.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file TopLayer_utilization_synth.rpt -pb TopLayer_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Thu Mar 14 21:34:50 2019...

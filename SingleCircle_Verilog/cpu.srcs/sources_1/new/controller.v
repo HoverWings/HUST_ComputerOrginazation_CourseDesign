@@ -16,9 +16,9 @@ module controller(
     output  jal; //函数调用jal
     output  RegDin1; //
     output  shift;   //位移
-    output  [3:0]ALUOP;   //alu的操作码
-    output  syscall; //停机
-    output  RegWrite;  //写寄存器  
+    output  [3:0]ALUOP;     //alu的操作码
+    output  syscall;        //停机
+    output  RegWrite;       //写寄存器  
     output  MemWrite;      // 写数据存储器
     output  [3:0]mode;    //数据存储器访问模式
     output  AluB1;  //alu的b输出的选择信号

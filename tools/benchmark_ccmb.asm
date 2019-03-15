@@ -292,10 +292,16 @@ sort_next:
  addi $s1,$zero,60
  bne $s0, $s1, sort_loop
 
- addi   $v0,$zero,50         # system call for pause
- syscall                  # we are out of here.   
+ #addi   $v0,$zero,50         # system call for pause
+ #syscall                  # we are out of here.   
  
- 
+
+addi   $v0,$zero,10         # system call for exit
+syscall                  # we are out of here.   
+
+addi   $v0,$zero,10         # system call for exit
+syscall                  # we are out of here.   
+
 #############################################
 # insert your ccmb benchmark program here!!!
 #############################################
@@ -414,8 +420,8 @@ syscall                  # 暂停或退出
 
 
                  
-# addi   $v0,$zero,10         # system call for exit
-# syscall                  # we are out of here.   
+addi   $v0,$zero,10         # system call for exit
+syscall                  # we are out of here.   
  
 #MIPS处理器实现中请用停机指令实现syscall
 

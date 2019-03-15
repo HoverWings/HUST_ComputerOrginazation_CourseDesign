@@ -12,6 +12,7 @@ module DM(clk,addr,visin,Din,mode,we,Dout,visout);
     wire str1,str2,str3,str4;
     wire [9:0] addr1;
 
+    // in
     always @(posedge clk) begin
         //if(str4==0&str3==0&&str2==1&&str1==1)
        /* if(str4) memory[addr1][31:24]=Din[31:24];
@@ -52,7 +53,7 @@ module DM(clk,addr,visin,Din,mode,we,Dout,visout);
            memory[addr1][7:0] =  memory[addr1][7:0];
           end
     end 
-    
+    // out
      always @(*) begin
             if(mode[3])  Dout[31:24]=memory[addr1][31:24];
             else Dout[31:24]=8'b00000000;

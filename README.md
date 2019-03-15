@@ -11,7 +11,7 @@ This is the Computer Orginazation Course Design of HUST in 2019 Spring
 - [x] 重定向流水线  70
 ### Extend
 - [x] 单级中断      +8
-- [ ] 多级中断      +5
+- [x] 多级中断      +5
 - [x] 流水中断      +5
-- [ ] Pipeline Verilog  +12
-- [ ] 分支预测      +10
+- [x] Pipeline Verilog  +12
+- [x] 分支预测      +10
