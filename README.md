@@ -1,5 +1,5 @@
-# HUST_ComputerOrginazation_CourseDesign
-This is the Computer Orginazation Course Design of HUST in 2019 Spring
+# HUST_ComputerOrginazation_CourseProject
+This is the Computer Orginazation Course Project of HUST in 2019 Spring
 
 ## Outline 
 ### Base
